@@ -1,4 +1,3 @@
-﻿# ASINGULARITY
 
 <h1 align="center">ASINGULARITY</h1>
 <h3 align="center">The Future of AI-Powered Decentralized Ecosystems</h3>
