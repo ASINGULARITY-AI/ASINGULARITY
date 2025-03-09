@@ -1,0 +1,2302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="page_title">ASINGULARITY AI | Decentralized AI Ecosystem</title>
+    <meta name="description" data-i18n="page_description" content="Building a revolutionary ecosystem that combines AI, Crypto, NFT, and Web3 technologies on TON blockchain">
+    <link rel="stylesheet" href="styles.css">
+    <script src="translations.js"></script>
+    <script src="course-links.js"></script>
+    <script src="script.js" defer></script>
+    <script src="language-switcher.js" defer></script>
+    <script src="mobile-functions.js" defer></script>
+    <script src="check-i18n.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&family=VT323&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Индикатор прокрутки для мобильных устройств -->
+    <div class="mobile-scroll-indicator">
+        <div class="scroll-arrow"></div>
+        <div class="scroll-arrow"></div>
+        <div class="scroll-arrow"></div>
+        <div class="scroll-text">Scroll Down</div>
+    </div>
+    
+    <!-- Cyberpunk effects -->
+    <div class="data-stream">
+        <div class="data-line" style="top: 10%; animation-delay: 0s;"></div>
+        <div class="data-line" style="top: 25%; animation-delay: 2s;"></div>
+        <div class="data-line" style="top: 40%; animation-delay: 4s;"></div>
+        <div class="data-line" style="top: 55%; animation-delay: 1s;"></div>
+        <div class="data-line" style="top: 70%; animation-delay: 3s;"></div>
+        <div class="data-line" style="top: 85%; animation-delay: 5s;"></div>
+    </div>
+    
+    <div class="space-particles">
+        <!-- Частицы будут добавлены через JavaScript -->
+    </div>
+    
+    <div class="stars-container">
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+    </div>
+    
+    <div class="glitch-overlay"></div>
+    <div class="scanline"></div>
+
+    <!-- Логотип с глитч-эффектами для букв AI и SINGULARITY -->
+    <header id="header">
+        <div class="container">
+        <nav>
+            <div class="logo-container">
+                    <a href="#" class="logo">
+                        <div class="logo-text cyberpunk-text"><span class="highlight">A</span>S<span class="highlight">I</span>NGULAR<span class="highlight">I</span>TY</div>
+                    </a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#about" data-i18n="nav_about">About</a></li>
+                    <li><a href="#roadmap" data-i18n="nav_roadmap">Roadmap</a></li>
+                    <li><a href="#ecosystem" data-i18n="nav_ecosystem">Ecosystem</a></li>
+                    <li><a href="#nft" data-i18n="nav_nft">NFT</a></li>
+                    <li><a href="#join" data-i18n="nav_join">Join</a></li>
+                </ul>
+                <div class="language-switcher">
+                    <button class="lang-btn active" data-lang="en">EN</button>
+                    <button class="lang-btn" data-lang="ru">RU</button>
+                </div>
+                <div class="mobile-menu-toggle">
+                    <span data-i18n="menu_btn">Menu</span>
+            </div>
+                <a href="https://t.me/LANDEMON" class="invest-btn" target="_blank" data-i18n="invest_btn">Invest</a>
+        </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h1 class="glitch-text" data-text="The Future of Decentralized AI" data-i18n="hero_title">The Future of <span class="gradient-text" data-text="Decentralized AI">Decentralized AI</span></h1>
+                <p data-i18n="hero_subtitle">Building a revolutionary ecosystem that combines AI, Crypto, NFT, and Web3 technologies on TON blockchain</p>
+                <div class="cta-buttons">
+                    <a href="https://github.com/LNDMN/AI_CRYPTO_STARTUP" class="btn primary-btn cyberpunk-btn" target="_blank" data-i18n="hero_cta_primary">GitHub Repository</a>
+                    <a href="https://t.me/AI_CRYPTO_STARTUP" class="btn secondary-btn cyberpunk-btn" target="_blank" data-i18n="hero_cta_secondary">Join Telegram</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="cube-container">
+                    <div class="cube">
+                        <div class="face front"><i class="fas fa-robot"></i></div>
+                        <div class="face back"><i class="fas fa-brain"></i></div>
+                        <div class="face right"><i class="fas fa-network-wired"></i></div>
+                        <div class="face left"><i class="fab fa-bitcoin"></i></div>
+                        <div class="face top"><i class="fas fa-cubes"></i></div>
+                        <div class="face bottom"><i class="fas fa-code"></i></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="section-container">
+                <h2 class="section-title">
+                    <div class="logo-about" data-text="ASINGULARITY" data-i18n="about_title">
+                        <span class="logo-asi"><span class="logo-a">A</span><span class="logo-s">S</span><span class="logo-i">I</span></span><span class="logo-singularity">NGULARITY</span>
+                    </div>
+                </h2>
+                <p class="section-description about-description" data-i18n="about_description">ASINGULARITY AI — это революционная децентрализованная экосистема, объединяющая мощь Искусственного Суперинтеллекта (ASI) и технологической Сингулярности. Наша миссия — создать синергетическую экосистему нового поколения, использующую высокоскоростной блокчейн TON, виртуальную машину TVM и передовые технологии ИИ для создания автономного цифрового экономического пространства.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="current-stage" class="section">
+            <div class="section-container">
+                <h2 class="section-title glitch-text" data-text="Current Phase" data-i18n="current_phase_title">Current <span class="gradient-text" data-text="Phase">Phase</span></h2>
+                <div class="current-stage-content">
+                    <div class="stage-info">
+                        <span class="stage-badge" data-i18n="current_phase_badge">Фаза 1: Фундамент</span>
+                        <h3 data-i18n="current_phase_subtitle">Мы создаем прочный технологический фундамент</h3>
+                        <p data-i18n="current_phase_desc">Текущий этап сфокусирован на построении ключевой инфраструктуры и формировании сообщества. Присоединяйтесь к нашей команде и станьте частью революционного проекта!</p>
+                        <ul class="stage-highlights">
+                            <li><i class="fas fa-check-circle"></i> <span data-i18n="current_phase_highlight1">Разработка образовательных курсов</span></li>
+                            <li><i class="fas fa-check-circle"></i> <span data-i18n="current_phase_highlight2">Формирование структуры репозитория</span></li>
+                            <li><i class="fas fa-check-circle"></i> <span data-i18n="current_phase_highlight3">Создание базовой функциональности ИИ-агентов</span></li>
+                            <li><i class="fas fa-check-circle"></i> <span data-i18n="current_phase_highlight4">Implementing NFT reward system</span></li>
+                            <li><i class="fas fa-check-circle"></i> <span data-i18n="current_phase_highlight5">Setting up community channels and initial marketing</span></li>
+                            <li><i class="fas fa-check-circle"></i> <span data-i18n="current_phase_highlight6">Designing architecture for TON smart contracts</span></li>
+                            <li><i class="fas fa-check-circle"></i> <span data-i18n="current_phase_highlight7">Forming core team and attracting initial contributors</span></li>
+                        </ul>
+                        <div class="cta-buttons">
+                            <a href="https://github.com/LNDMN/AI_CRYPTO_STARTUP" class="btn primary-btn cyberpunk-btn" target="_blank" data-i18n="current_phase_cta_primary">GitHub</a>
+                            <a href="https://t.me/AI_CRYPTO_STARTUP" class="btn secondary-btn cyberpunk-btn" target="_blank" data-i18n="current_phase_cta_secondary">Telegram</a>
+                        </div>
+                    </div>
+                    <div class="stage-image">
+                        <div class="cyberpunk-visualization">
+                            <div class="visualization-container">
+                                <div class="visualization-grid"></div>
+                                <div class="visualization-particles"></div>
+                                <div class="visualization-cube">
+                                    <div class="cube-face front"><i class="fas fa-brain"></i></div>
+                                    <div class="cube-face back"><i class="fas fa-robot"></i></div>
+                                    <div class="cube-face right"><i class="fas fa-microchip"></i></div>
+                                    <div class="cube-face left"><i class="fas fa-network-wired"></i></div>
+                                    <div class="cube-face top"><i class="fas fa-code-branch"></i></div>
+                                    <div class="cube-face bottom"><i class="fas fa-database"></i></div>
+                                </div>
+                                <div class="visualization-data">
+                                    <div class="data-line"></div>
+                                    <div class="data-line"></div>
+                                    <div class="data-line"></div>
+                                    <div class="data-line"></div>
+                                    <div class="data-line"></div>
+                                </div>
+                                <div class="visualization-action-buttons">
+                                    <a href="https://github.com/LNDMN/AI_CRYPTO_STARTUP" class="visualization-btn github-btn" data-i18n="visual_btn_github" target="_blank"><i class="fab fa-github"></i></a>
+                                    <a href="https://t.me/AI_CRYPTO_STARTUP" class="visualization-btn telegram-btn" data-i18n="visual_btn_telegram" target="_blank"><i class="fab fa-telegram-plane"></i></a>
+                                    <a href="https://github.com/LNDMN/AI_CRYPTO_STARTUP/blob/main/community/rewards/NFT_REWARDS_SYSTEM.md" class="visualization-btn nft-btn" data-i18n="visual_btn_nft" target="_blank"><i class="fas fa-gem"></i></a>
+                                    <a href="#join" class="visualization-btn contribute-btn" data-i18n="visual_btn_contribute"><i class="fas fa-code-branch"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="roadmap" class="section">
+            <div class="section-container">
+                <h2 class="section-title glitch-text" data-text="Стратегическая дорожная карта" data-i18n="roadmap_title">Стратегическая <span class="gradient-text" data-text="дорожная карта">дорожная карта</span></h2>
+                <div class="timeline">
+                    <!-- Roadmap Phase 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content cyberpunk-card">
+                            <h3 data-i18n="roadmap_phase1_title">Фаза 1: Фундамент</h3>
+                            <span class="timeline-date" data-i18n="roadmap_phase1_date">Текущий этап</span>
+                            <div class="extra-info">
+                                <h4 data-i18n="roadmap_phase1_desc">Создание прочного технологического фундамента</h4>
+                                <p data-i18n="roadmap_phase1_paragraph">На этом критическом начальном этапе мы создаем основную инфраструктуру и сообщество:</p>
+                                <ul>
+                                    <li data-i18n="roadmap_phase1_list_item1">Разработка комплексных образовательных курсов на платформе Stepik</li>
+                                    <li data-i18n="roadmap_phase1_list_item2">Создание структуры репозитория GitHub и документации</li>
+                                    <li data-i18n="roadmap_phase1_list_item3">Создание прототипа системы ИИ-агентов с базовой функциональностью</li>
+                                    <li data-i18n="roadmap_phase1_list_item4">Implementing NFT reward system</li>
+                                    <li data-i18n="roadmap_phase1_list_item5">Setting up community channels and initial marketing</li>
+                                    <li data-i18n="roadmap_phase1_list_item6">Designing architecture for TON smart contracts</li>
+                                    <li data-i18n="roadmap_phase1_list_item7">Forming core team and attracting initial contributors</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="timeline-detail">
+                            <div class="timeline-detail-content">
+                                <div class="timeline-detail-icon"><i class="fas fa-rocket"></i></div>
+                                <h4 data-i18n="roadmap_phase1_goals_title">Цели фундаментального этапа</h4>
+                                <ul>
+                                    <li data-i18n="roadmap_phase1_goals_item1">Привлечь 20+ активных участников проекта</li>
+                                    <li data-i18n="roadmap_phase1_goals_item2">Запустить образовательные курсы на платформе Stepik</li>
+                                    <li data-i18n="roadmap_phase1_goals_item3">Создать сильное присутствие сообщества</li>
+                                    <li data-i18n="roadmap_phase1_goals_item4">Разработать начальные прототипы ИИ-агентов</li>
+                                    <li data-i18n="roadmap_phase1_goals_item5">Создать комплексную документацию</li>
+                            </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Roadmap Phase 2 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content cyberpunk-card">
+                            <h3 data-i18n="roadmap_phase2_title">Phase 2: MVP Development</h3>
+                            <span class="timeline-date" data-i18n="roadmap_phase2_date">Q2-Q4 2025</span>
+                            <div class="extra-info">
+                                <h4 data-i18n="roadmap_phase2_desc">Creating Functional Products</h4>
+                                <p data-i18n="roadmap_phase2_paragraph">In this phase, we transform concepts into working products:</p>
+                                <ul>
+                                    <li data-i18n="roadmap_phase2_list_item1">Releasing a functional MVP of the AI agent system with real-world capabilities</li>
+                                    <li data-i18n="roadmap_phase2_list_item2">Implementing core smart contracts for token management and rewards</li>
+                                    <li data-i18n="roadmap_phase2_list_item3">Launching initial web interfaces and mobile applications</li>
+                                    <li data-i18n="roadmap_phase2_list_item4">Expanding educational content to cover more specialized topics</li>
+                                    <li data-i18n="roadmap_phase2_list_item5">Beginning targeted marketing campaigns to attract users and contributors</li>
+                                    <li data-i18n="roadmap_phase2_list_item6">Creating the distributed vector database for agent knowledge sharing</li>
+                                    <li data-i18n="roadmap_phase2_list_item7">Establishing partnerships with key players in the AI and crypto space</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="timeline-detail">
+                            <div class="timeline-detail-content">
+                                <div class="timeline-detail-icon"><i class="fas fa-code"></i></div>
+                                <h4 data-i18n="roadmap_phase2_goals_title">MVP Development Milestones</h4>
+                                <ul>
+                                    <li data-i18n="roadmap_phase2_goals_item1">Complete AI agent system with basic task execution</li>
+                                    <li data-i18n="roadmap_phase2_goals_item2">Deploy smart contracts on TON testnet</li>
+                                    <li data-i18n="roadmap_phase2_goals_item3">Launch beta version of web and mobile interfaces</li>
+                                    <li data-i18n="roadmap_phase2_goals_item4">Establish initial partnerships with AI and crypto projects</li>
+                                    <li data-i18n="roadmap_phase2_goals_item5">Begin user testing and feedback collection</li>
+                            </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content cyberpunk-card">
+                            <h3 data-i18n="roadmap_phase3_title">Phase 3: Ecosystem Growth</h3>
+                            <span class="timeline-date" data-i18n="roadmap_phase3_date">Q2-Q4 2025</span>
+                            <div class="extra-info">
+                                <h4 data-i18n="roadmap_phase3_desc">Scaling the Ecosystem</h4>
+                                <p data-i18n="roadmap_phase3_paragraph">This phase focuses on expansion and integration of core components:</p>
+                                <ul>
+                                    <li data-i18n="roadmap_phase3_list_item1">Launching RockeDAPP - our AI-powered crypto wallet and financial hub</li>
+                                    <li data-i18n="roadmap_phase3_list_item2">Developing the AI-SMM Agency for automated content creation and management</li>
+                                    <li data-i18n="roadmap_phase3_list_item3">Expanding the distributed vector database with more action patterns</li>
+                                    <li data-i18n="roadmap_phase3_list_item4">Implementing token mining via computations to reward resource providers</li>
+                                    <li data-i18n="roadmap_phase3_list_item5">Securing significant investments ($1M+) to accelerate development</li>
+                                    <li data-i18n="roadmap_phase3_list_item6">Creating browser extensions for seamless AI agent integration</li>
+                                    <li data-i18n="roadmap_phase3_list_item7">Establishing the framework for AI personas with specialized capabilities</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="timeline-detail">
+                            <div class="timeline-detail-content">
+                                <div class="timeline-detail-icon"><i class="fas fa-project-diagram"></i></div>
+                                <h4 data-i18n="roadmap_phase3_goals_title">Ecosystem Growth Strategy</h4>
+                                <ul>
+                                    <li data-i18n="roadmap_phase3_goals_item1">Integrate all components into a cohesive ecosystem</li>
+                                    <li data-i18n="roadmap_phase3_goals_item2">Launch token and begin distribution to NFT holders</li>
+                                    <li data-i18n="roadmap_phase3_goals_item3">Expand user base through targeted marketing</li>
+                                    <li data-i18n="roadmap_phase3_goals_item4">Establish partnerships with major blockchain projects</li>
+                                    <li data-i18n="roadmap_phase3_goals_item5">Begin international expansion efforts</li>
+                            </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content cyberpunk-card">
+                            <h3 data-i18n="roadmap_phase4_title">Phase 4: Expansion</h3>
+                            <span class="timeline-date" data-i18n="roadmap_phase4_date">2026</span>
+                            <div class="extra-info">
+                                <h4 data-i18n="roadmap_phase4_desc">Broadening Our Reach</h4>
+                                <p data-i18n="roadmap_phase4_paragraph">During this phase, we introduce additional services and expand globally:</p>
+                                <ul>
+                                    <li data-i18n="roadmap_phase4_list_item1">Launching comprehensive DeFi services including P2P exchange and crypto processing</li>
+                                    <li data-i18n="roadmap_phase4_list_item2">Developing the decentralized VPN/Proxy service for enhanced privacy and security</li>
+                                    <li data-i18n="roadmap_phase4_list_item3">Creating the AI-Oracles system for decentralized data collection and analysis</li>
+                                    <li data-i18n="roadmap_phase4_list_item4">Implementing the NFT for Graphics Cards system to monetize computing resources</li>
+                                    <li data-i18n="roadmap_phase4_list_item5">Expanding to international markets with localized services and marketing</li>
+                                    <li data-i18n="roadmap_phase4_list_item6">Introducing real estate tokenization services with AI assistance</li>
+                                    <li data-i18n="roadmap_phase4_list_item7">Developing UltrAPI framework for creating any services with ai agents</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="timeline-detail">
+                            <div class="timeline-detail-content">
+                                <div class="timeline-detail-icon"><i class="fas fa-globe"></i></div>
+                                <h4 data-i18n="roadmap_phase4_goals_title">Global Expansion Plan</h4>
+                                <ul>
+                                    <li data-i18n="roadmap_phase4_goals_item1">Establish presence in key markets across Asia, Europe, and Americas</li>
+                                    <li data-i18n="roadmap_phase4_goals_item2">Develop localized versions of all services</li>
+                                    <li data-i18n="roadmap_phase4_goals_item3">Create regional partnerships and community hubs</li>
+                                    <li data-i18n="roadmap_phase4_goals_item4">Implement multi-language support across the ecosystem</li>
+                                    <li data-i18n="roadmap_phase4_goals_item5">Adapt to regional regulatory requirements</li>
+                            </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content cyberpunk-card">
+                            <h3 data-i18n="roadmap_phase5_title">Phase 5: Advanced Ecosystem</h3>
+                            <span class="timeline-date" data-i18n="roadmap_phase5_date">LVL UP</span>
+                            <div class="extra-info">
+                                <h4 data-i18n="roadmap_phase5_desc">Creating a Self-Sustaining Economy</h4>
+                                <p data-i18n="roadmap_phase5_paragraph">In this mature phase, we complete the ecosystem with advanced components:</p>
+                                <ul>
+                                    <li data-i18n="roadmap_phase5_list_item1">Launching the DAO Advertising Exchange for decentralized marketing</li>
+                                    <li data-i18n="roadmap_phase5_list_item2">Developing the AI-Launchpool to support and fund new startups</li>
+                                    <li data-i18n="roadmap_phase5_list_item3">Creating the Alternative Energy Crypto Project for sustainable operations</li>
+                                    <li data-i18n="roadmap_phase5_list_item4">Implementing QuadrAD/ADrone service for innovative aerial advertising</li>
+                                    <li data-i18n="roadmap_phase5_list_item5">Establishing a comprehensive AGI framework with self-improvement capabilities</li>
+                                    <li data-i18n="roadmap_phase5_list_item6">Introducing the prediction market platform for forecasting and betting</li>
+                                    <li data-i18n="roadmap_phase5_list_item7">Achieving economic self-sufficiency through DeFi tools and token mechanisms</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="timeline-detail">
+                            <div class="timeline-detail-content">
+                                <div class="timeline-detail-icon"><i class="fas fa-brain"></i></div>
+                                <h4 data-i18n="roadmap_phase5_goals_title">Advanced AI Integration</h4>
+                                <ul>
+                                    <li data-i18n="roadmap_phase5_goals_item1">Develop self-improving AI systems with advanced learning capabilities</li>
+                                    <li data-i18n="roadmap_phase5_goals_item2">Create fully autonomous agent networks</li>
+                                    <li data-i18n="roadmap_phase5_goals_item3">Implement cross-chain interoperability for all services</li>
+                                    <li data-i18n="roadmap_phase5_goals_item4">Establish AI governance mechanisms</li>
+                                    <li data-i18n="roadmap_phase5_goals_item5">Develop next-generation AI-human collaboration tools</li>
+                            </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="ecosystem" class="section">
+            <div class="section-container">
+                <h2 class="section-title glitch-text" data-text="Ecosystem Components" data-i18n="ecosystem_title">Ecosystem <span class="gradient-text" data-text="Components">Components</span></h2>
+                <div class="ecosystem-grid">
+                    <div class="ecosystem-card cyberpunk-card">
+                        <div class="ecosystem-icon"><i class="fas fa-robot"></i></div>
+                        <h3 data-i18n="ecosystem_card1_title">AI-Agent System</h3>
+                        <p data-i18n="ecosystem_card1_desc">Comprehensive AGI system with distributed vector database, multichain integration, and token mining via computations.</p>
+                        <div class="extra-info">
+                            <h4 data-i18n="ecosystem_card1_extra_title">Comprehensive AGI System</h4>
+                            <p data-i18n="ecosystem_card1_extra_desc">Our decentralized AI agent system is designed to evolve and learn from any available external resources, applying acquired knowledge for effective monetization. Key features:</p>
+                            <ul>
+                                <li data-i18n="ecosystem_card1_feature1">Close integration with TON blockchain for managing tokens, knowledge base, and rewards</li>
+                                <li data-i18n="ecosystem_card1_feature2">Distributed vector database storing optimized action patterns from various sources</li>
+                                <li data-i18n="ecosystem_card1_feature3">Multichain and offchain capabilities for maximum flexibility</li>
+                                <li data-i18n="ecosystem_card1_feature4">Token mining via computations - earn tokens by providing computing power</li>
+                                <li data-i18n="ecosystem_card1_feature5">NFT-GPU system allowing ownership of computing resources with passive income</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="ecosystem-card cyberpunk-card">
+                        <div class="ecosystem-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <h3 data-i18n="ecosystem_card2_title">Educational Courses</h3>
+                        <p data-i18n="ecosystem_card2_desc">Series of courses teaching AI, crypto, and startup development while building our community.</p>
+                        <div class="extra-info">
+                            <h4 data-i18n="ecosystem_card2_extra_title">Educational Ecosystem</h4>
+                            <p data-i18n="ecosystem_card2_extra_desc">Our comprehensive educational platform serves as both a knowledge base and community builder:</p>
+                            <ul>
+                                <li data-i18n="ecosystem_card2_feature1">Main course: "AI CRYPTO STARTUP - LAUNCH YOUR ROCKET" teaches decentralized AI startup creation</li>
+                                <li data-i18n="ecosystem_card2_feature2">Specialized courses covering Python development, TON smart contracts, browser extensions, and more</li>
+                                <li data-i18n="ecosystem_card2_feature3">Build an open-source AI-agent system together with other students</li>
+                                <li data-i18n="ecosystem_card2_feature4">Form your own community within our ecosystem</li>
+                                <li data-i18n="ecosystem_card2_feature5">Earn NFTs for active participation, granting you shares in the ecosystem's profits</li>
+                                <li data-i18n="ecosystem_card2_feature6">Available on multiple platforms and in different languages</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="ecosystem-card cyberpunk-card">
+                        <div class="ecosystem-icon"><i class="fas fa-wallet"></i></div>
+                        <h3 data-i18n="ecosystem_card3_title">RockeDAPP - AI Wallet</h3>
+                        <p data-i18n="ecosystem_card3_desc">Multi-functional multichain wallet with AI trader agents and built-in crypto information aggregator.</p>
+                        <div class="extra-info">
+                            <h4 data-i18n="ecosystem_card3_extra_title">Crypto Wallet of the New Generation</h4>
+                            <p data-i18n="ecosystem_card3_extra_desc">RockeDAPP is more than just a wallet - it's a complete financial ecosystem:</p>
+                            <ul>
+                                <li data-i18n="ecosystem_card3_feature1">Multi-functional multichain semi/cold wallet supporting numerous cryptocurrencies</li>
+                                <li data-i18n="ecosystem_card3_feature2">Built-in AI trader agents for technical and fundamental analysis</li>
+                                <li data-i18n="ecosystem_card3_feature3">Test and optimize trading strategies on historical data</li>
+                                <li data-i18n="ecosystem_card3_feature4">Subscribe to trading signals or delegate fund management to AI</li>
+                                <li data-i18n="ecosystem_card3_feature5">"CoinMarketCap on steroids" - comprehensive crypto information aggregator</li>
+                                <li data-i18n="ecosystem_card3_feature6">Private stablecoin (USDX), backed by other stablecoins with yield on balance</li>
+                                <li data-i18n="ecosystem_card3_feature7">GOLDX token backed by physical gold</li>
+                                <li data-i18n="ecosystem_card3_feature8">Optional anonymity features for transaction privacy</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="ecosystem-card cyberpunk-card">
+                        <div class="ecosystem-icon"><i class="fas fa-comments"></i></div>
+                        <h3 data-i18n="ecosystem_card4_title">Social Media Network</h3>
+                        <p data-i18n="ecosystem_card4_desc">Network of channels and groups managed by AI tools for content generation and audience engagement.</p>
+                        <div class="extra-info">
+                            <h4 data-i18n="ecosystem_card4_extra_title">Social Network with AI Support</h4>
+                            <p data-i18n="ecosystem_card4_extra_desc">Our social media strategy creates a powerful promotion and data collection system:</p>
+                            <ul>
+                                <li data-i18n="ecosystem_card4_feature1">Network of channels and groups covering IT, business, crypto, future tech, and motivation</li>
+                                <li data-i18n="ecosystem_card4_feature2">AI tools for content generation, scheduling, and audience analysis</li>
+                                <li data-i18n="ecosystem_card4_feature3">Bots and AI personas managing channels autonomously</li>
+                                <li data-i18n="ecosystem_card4_feature4">Automated engagement optimization</li>
+                                <li data-i18n="ecosystem_card4_feature5">Data collection for training our AI systems</li>
+                                <li data-i18n="ecosystem_card4_feature6">Creating a base of active users for all ecosystem projects</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="ecosystem-card cyberpunk-card">
+                        <div class="ecosystem-icon"><i class="fas fa-exchange-alt"></i></div>
+                        <h3 data-i18n="ecosystem_card5_title">DeFi Services</h3>
+                        <p data-i18n="ecosystem_card5_desc">P2P-exchange, crypto processing, real estate tokenization, and UltrAPI.app for AI model access.</p>
+                        <div class="extra-info">
+                            <h4 data-i18n="ecosystem_card5_extra_title">Comprehensive DeFi Ecosystem</h4>
+                            <p data-i18n="ecosystem_card5_extra_desc">Our DeFi services provide financial infrastructure for the entire ecosystem:</p>
+                            <ul>
+                                <li data-i18n="ecosystem_card5_feature1">P2P Exchange and Crypto Processing: tokenization of fiat currencies into stablecoins</li>
+                                <li data-i18n="ecosystem_card5_feature2">Automated two-way "fiat-crypto" payments using smart contracts and AI agents</li>
+                                <li data-i18n="ecosystem_card5_feature3">Real Estate Sector: tokenized property investments with AI assistance</li>
+                                <li data-i18n="ecosystem_card5_feature4">UltrAPI.app: Universal access to various AI models via API with TON-based micropayments</li>
+                                <li data-i18n="ecosystem_card5_feature5">Integration with all ecosystem products for seamless financial operations</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="ecosystem-card cyberpunk-card">
+                        <div class="ecosystem-icon"><i class="fas fa-ad"></i></div>
+                        <h3 data-i18n="ecosystem_card6_title">DAO Advertising Exchange</h3>
+                        <p data-i18n="ecosystem_card6_desc">Decentralized advertising platform with innovative formats, including aerial advertising with drones.</p>
+                        <div class="extra-info">
+                            <h4 data-i18n="ecosystem_card6_extra_title">Revolutionary Advertising Platform</h4>
+                            <p data-i18n="ecosystem_card6_extra_desc">Our DAO Advertising Exchange redefines marketing in Web3 space:</p>
+                            <ul>
+                                <li data-i18n="ecosystem_card6_feature1">Decentralized advertising platform, managed by community through DAO</li>
+                                <li data-i18n="ecosystem_card6_feature2">Innovative formats, including AR/VR and interactive campaigns</li>
+                                <li data-i18n="ecosystem_card6_feature3">QuadrAD/ADrone: aerial advertising with drones and projection technologies</li>
+                                <li data-i18n="ecosystem_card6_feature4">Transparent revenue distribution system</li>
+                                <li data-i18n="ecosystem_card6_feature5">AI-optimization of advertising campaigns for maximum efficiency</li>
+                                <li data-i18n="ecosystem_card6_feature6">Integration with social media and other ecosystem components</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="ecosystem-card cyberpunk-card">
+                        <div class="ecosystem-icon"><i class="fas fa-microchip"></i></div>
+                        <h3 data-i18n="ecosystem_card7_title">NFT for Graphics Cards</h3>
+                        <p data-i18n="ecosystem_card7_desc">Digitization of rights to computing power with passive income from unused resources.</p>
+                        <div class="extra-info">
+                            <h4 data-i18n="ecosystem_card7_extra_title">Tokenized Computing Power</h4>
+                            <p data-i18n="ecosystem_card7_extra_desc">Our NFT-GPU system creates a marketplace for computing resources:</p>
+                            <ul>
+                                <li data-i18n="ecosystem_card7_feature1">Digitization of rights to computing power through NFTs</li>
+                                <li data-i18n="ecosystem_card7_feature2">Passive income generation from unused GPU resources</li>
+                                <li data-i18n="ecosystem_card7_feature3">Option to "purchase" GPUs physically located in our data centers</li>
+                                <li data-i18n="ecosystem_card7_feature4">Earn when your GPU is not in personal use</li>
+                                <li data-i18n="ecosystem_card7_feature5">Priority access to computing power for AI tasks</li>
+                                <li data-i18n="ecosystem_card7_feature6">Transparent profit distribution based on contribution</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="ecosystem-card cyberpunk-card">
+                        <div class="ecosystem-icon"><i class="fas fa-rocket"></i></div>
+                        <h3 data-i18n="ecosystem_card8_title">AI-Launchpool</h3>
+                        <p data-i18n="ecosystem_card8_desc">Launchpool managed by AI agent system for startups with marketing, technical support, and fundraising.</p>
+                        <div class="extra-info">
+                            <h4 data-i18n="ecosystem_card8_extra_title">AI-Managed Startup Accelerator</h4>
+                            <p data-i18n="ecosystem_card8_extra_desc">Our AI-Launchpool provides comprehensive support for new projects:</p>
+                            <ul>
+                                <li data-i18n="ecosystem_card8_feature1">Fully managed by an AI agent system for startups and projects</li>
+                                <li data-i18n="ecosystem_card8_feature2">Complete launch package: marketing, SMM, technical support, and fundraising</li>
+                                <li data-i18n="ecosystem_card8_feature3">AI assistance in structuring concepts and creating funding models</li>
+                                <li data-i18n="ecosystem_card8_feature4">Automated verification and project support during development</li>
+                                <li data-i18n="ecosystem_card8_feature5">Integration with other ecosystem services (RockeDAPP, DAO Ad Exchange, AI-Agent System)</li>
+                                <li data-i18n="ecosystem_card8_feature6">Community and investor attraction mechanisms</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="nft" class="section">
+            <div class="section-container">
+                <h2 class="section-title glitch-text" data-text="NFT Rewards System" data-i18n="nft_title">NFT <span class="gradient-text" data-text="Rewards System">Rewards System</span></h2>
+                <div class="nft-content">
+                    <div class="nft-info">
+                        <h3 data-i18n="nft_description">Earn NFTs by Contributing to Our Ecosystem</h3>
+                        <p data-i18n="nft_text">
+                            Active contributors to our ecosystem receive exclusive NFTs that provide a share in the project's future profits. These NFTs represent both recognition of contribution and entitle holders to a percentage of net profits according to our structured reward system.
+                        </p>
+                        <div class="nft-distribution cyberpunk-card">
+                            <h4 data-i18n="nft_distribution_title">NFT Distribution (1000 NFTs Total)</h4>
+                            <div class="distribution-chart">
+                                <div class="chart-segment segment-1" data-percentage="42%">
+                                    <span class="segment-label">42%</span>
+                                </div>
+                                <div class="chart-segment segment-2" data-percentage="58%">
+                                    <span class="segment-label">58%</span>
+                                </div>
+                            </div>
+                            <div class="distribution-legend">
+                                <div class="legend-item">
+                                    <span class="legend-color color-1"></span>
+                                    <span class="legend-text" data-i18n="nft_distribution_reserve">420 NFTs (42%) - Reserved for sales, marketing, and non-public parts</span>
+                                </div>
+                                <div class="legend-item">
+                                    <span class="legend-color color-2"></span>
+                                    <span class="legend-text" data-i18n="nft_distribution_community">580 NFTs (58%) - Allocated for community participants</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="profit-sharing cyberpunk-card">
+                            <h4 data-i18n="nft_profit_sharing_title">Profit Sharing Structure</h4>
+                            <table class="profit-table">
+                                <thead>
+                                    <tr>
+                                        <th data-i18n="nft_profit_column1">Profit Share</th>
+                                        <th data-i18n="nft_profit_column2">Until Payment Reaches</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td data-i18n="nft_profit_row1_col1">42%</td>
+                                        <td data-i18n="nft_profit_row1_col2">$1,000 per NFT</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-i18n="nft_profit_row2_col1">23%</td>
+                                        <td data-i18n="nft_profit_row2_col2">$2,000 per NFT</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-i18n="nft_profit_row3_col1">16%</td>
+                                        <td data-i18n="nft_profit_row3_col2">$5,000 per NFT</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-i18n="nft_profit_row4_col1">15%</td>
+                                        <td data-i18n="nft_profit_row4_col2">$10,000 per NFT</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-i18n="nft_profit_row5_col1">8%</td>
+                                        <td data-i18n="nft_profit_row5_col2">$50,000 per NFT</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-i18n="nft_profit_row6_col1">4%</td>
+                                        <td data-i18n="nft_profit_row6_col2">$100,000 per NFT</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="investment-bonus cyberpunk-card">
+                            <h4 data-i18n="nft_investment_bonus_title">Investment Milestone Bonus</h4>
+                            <p data-i18n="nft_investment_bonus_text">When the project reaches $1M in investments, each NFT holder will receive $100 (or equivalent in our token) directly to their wallet.</p>
+                        </div>
+                        <a href="https://github.com/LNDMN/AI_CRYPTO_STARTUP/blob/main/community/rewards/NFT_REWARDS_SYSTEM.md" class="btn primary-btn cyberpunk-btn" target="_blank" data-i18n="nft_view_full_system">View Full NFT Rewards System</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="join" class="section">
+            <div class="section-container">
+                <h2 class="section-title glitch-text" data-text="Join Our Ecosystem" data-i18n="join_title">Join <span class="gradient-text" data-text="Our Ecosystem">Our Ecosystem</span></h2>
+                <div class="join-content">
+                    <div class="join-info">
+                        <div class="join-team-banner">
+                            <h4 data-i18n="join_banner_title">We're Actively Building Our Team!</h4>
+                            <p data-i18n="join_banner_text">Join our OpenSource project and contribute to building a revolutionary decentralized AI ecosystem. Every contribution is rewarded with NFTs that provide a share in the project's future profits.</p>
+                            <a href="https://github.com/LNDMN/AI_CRYPTO_STARTUP" class="btn primary-btn cyberpunk-btn" target="_blank" data-i18n="join_banner_btn">Join on GitHub</a>
+                        </div>
+                        <h3 data-i18n="join_how_title">How to Contribute and Earn NFT Rewards</h3>
+                        <div class="steps-container">
+                            <div class="step" id="join-step-1">
+                                <div class="step-number">1</div>
+                                <div class="step-content">
+                                    <h4 data-i18n="join_step1_title">Fork the Repository</h4>
+                                    <p data-i18n="join_step1_desc">Start by <a href="https://github.com/LNDMN/AI_CRYPTO_STARTUP/fork" class="step-link" target="_blank">forking our GitHub repository</a> to your account</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">2</div>
+                                <div class="step-content">
+                                    <h4 data-i18n="join_step2_title">Create Your Contributor Profile</h4>
+                                    <p data-i18n="join_step2_desc">Add your information to the <a href="https://github.com/LNDMN/AI_CRYPTO_STARTUP/tree/main/community/contributors" class="step-link" target="_blank">contributors directory</a></p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">3</div>
+                                <div class="step-content">
+                                    <h4 data-i18n="join_step3_title">Choose Tasks to Work On</h4>
+                                    <p data-i18n="join_step3_desc">Find suitable tasks in our <a href="https://github.com/LNDMN/AI_CRYPTO_STARTUP/issues" class="step-link" target="_blank">GitHub issues</a> or propose your own ideas</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">4</div>
+                                <div class="step-content">
+                                    <h4 data-i18n="join_step4_title">Submit Your Work</h4>
+                                    <p data-i18n="join_step4_desc">Create <a href="https://github.com/LNDMN/AI_CRYPTO_STARTUP/pulls" class="step-link" target="_blank">Pull Requests</a> with your contributions</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">5</div>
+                                <div class="step-content">
+                                    <h4 data-i18n="join_step5_title">Earn NFT Rewards</h4>
+                                    <p data-i18n="join_step5_desc">Receive NFTs based on the value and impact of your contributions</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contribution-types">
+                            <h4 data-i18n="contributions_title">Types of Contributions</h4>
+                            <p class="contribution-intro" data-i18n="contributions_intro">Our open-source project welcomes contributors from all backgrounds. Choose tasks that interest you and work at your own pace in the way that suits you best. We believe in the freedom of open-source development – contribute to what excites you most!</p>
+                            
+                            <div class="types-grid">
+                                <div class="type-item cyberpunk-card">
+                                    <div class="type-icon">
+                                    <i class="fas fa-code"></i>
+                                    </div>
+                                    <h5 data-i18n="contrib_code_title">Code Development</h5>
+                                    <p data-i18n="contrib_code_desc">Build smart contracts, frontend interfaces, backend systems, and AI models. Help create the core technology that powers our ecosystem.</p>
+                                    <ul class="type-details">
+                                        <li data-i18n="contrib_code_tasks.0">Smart contract development</li>
+                                        <li data-i18n="contrib_code_tasks.1">Frontend/Backend implementation</li>
+                                        <li data-i18n="contrib_code_tasks.2">AI model integration</li>
+                                        <li data-i18n="contrib_code_tasks.3">TON blockchain integration</li>
+                                    </ul>
+                                    <a href="#join-step-1" class="type-join-btn" data-i18n="contrib_code_btn">Join as Developer</a>
+                                </div>
+                                <div class="type-item cyberpunk-card">
+                                    <div class="type-icon">
+                                    <i class="fas fa-book"></i>
+                                    </div>
+                                    <h5 data-i18n="contrib_edu_title">Educational Content</h5>
+                                    <p data-i18n="contrib_edu_desc">Create tutorials, courses, and documentation that help others understand our technology and ecosystem.</p>
+                                    <ul class="type-details">
+                                        <li data-i18n="contrib_edu_tasks.0">Course module creation</li>
+                                        <li data-i18n="contrib_edu_tasks.1">Tutorial writing</li>
+                                        <li data-i18n="contrib_edu_tasks.2">Documentation</li>
+                                        <li data-i18n="contrib_edu_tasks.3">Educational videos</li>
+                                    </ul>
+                                    <a href="#join-step-1" class="type-join-btn" data-i18n="contrib_edu_btn">Join as Educator</a>
+                                </div>
+                                <div class="type-item cyberpunk-card">
+                                    <div class="type-icon">
+                                    <i class="fas fa-paint-brush"></i>
+                                    </div>
+                                    <h5 data-i18n="contrib_design_title">Design</h5>
+                                    <p data-i18n="contrib_design_desc">Create stunning visuals, UI/UX designs, NFT artwork, and branding materials that bring our vision to life.</p>
+                                    <ul class="type-details">
+                                        <li data-i18n="contrib_design_tasks.0">UI/UX design</li>
+                                        <li data-i18n="contrib_design_tasks.1">NFT artwork creation</li>
+                                        <li data-i18n="contrib_design_tasks.2">Branding and identity</li>
+                                        <li data-i18n="contrib_design_tasks.3">Visual assets</li>
+                                    </ul>
+                                    <a href="#join-step-1" class="type-join-btn" data-i18n="contrib_design_btn">Join as Designer</a>
+                                </div>
+                                <div class="type-item cyberpunk-card">
+                                    <div class="type-icon">
+                                    <i class="fas fa-file-alt"></i>
+                                    </div>
+                                    <h5 data-i18n="contrib_content_title">Content Creation</h5>
+                                    <p data-i18n="contrib_content_desc">Write articles, blog posts, social media content, and marketing materials to spread the word about our project.</p>
+                                    <ul class="type-details">
+                                        <li data-i18n="contrib_content_tasks.0">Technical writing</li>
+                                        <li data-i18n="contrib_content_tasks.1">Blog posts</li>
+                                        <li data-i18n="contrib_content_tasks.2">Translations</li>
+                                        <li data-i18n="contrib_content_tasks.3">Marketing copy</li>
+                                    </ul>
+                                    <a href="#join-step-1" class="type-join-btn" data-i18n="contrib_content_btn">Join as Writer</a>
+                                </div>
+                                <div class="type-item cyberpunk-card">
+                                    <div class="type-icon">
+                                    <i class="fas fa-bug"></i>
+                                    </div>
+                                    <h5 data-i18n="contrib_qa_title">Testing & QA</h5>
+                                    <p data-i18n="contrib_qa_desc">Ensure the quality and security of our products by testing functionality, reporting bugs, and suggesting improvements.</p>
+                                    <ul class="type-details">
+                                        <li data-i18n="contrib_qa_tasks.0">Functional testing</li>
+                                        <li data-i18n="contrib_qa_tasks.1">Security audits</li>
+                                        <li data-i18n="contrib_qa_tasks.2">User experience testing</li>
+                                        <li data-i18n="contrib_qa_tasks.3">Bug reporting</li>
+                                    </ul>
+                                    <a href="#join-step-1" class="type-join-btn" data-i18n="contrib_qa_btn">Join as Tester</a>
+                                </div>
+                                <div class="type-item cyberpunk-card">
+                                    <div class="type-icon">
+                                    <i class="fas fa-users"></i>
+                                    </div>
+                                    <h5 data-i18n="contrib_community_title">Community Building</h5>
+                                    <p data-i18n="contrib_community_desc">Help grow and nurture our community through moderation, support, engagement initiatives, and events.</p>
+                                    <ul class="type-details">
+                                        <li data-i18n="contrib_community_tasks.0">Community moderation</li>
+                                        <li data-i18n="contrib_community_tasks.1">Support and assistance</li>
+                                        <li data-i18n="contrib_community_tasks.2">Event organization</li>
+                                        <li data-i18n="contrib_community_tasks.3">Engagement initiatives</li>
+                                    </ul>
+                                    <a href="#join-step-1" class="type-join-btn" data-i18n="contrib_community_btn">Join Community Team</a>
+                                </div>
+                            </div>
+                            <div class="opensource-note">
+                                <div class="note-icon"><i class="fas fa-code-branch"></i></div>
+                                <div class="note-content">
+                                    <h5 data-i18n="opensource_note">Open Source Freedom</h5>
+                                    <p data-i18n="opensource_desc">As an open source project, we believe in flexibility and personal choice. Work on tasks that interest you, at your own pace, and in your preferred way. Your unique skills and perspective are valuable to us! There are no strict deadlines or requirements – contribute when and how you want, focusing on what you enjoy most.</p>
+                                    <a href="https://github.com/LNDMN/AI_CRYPTO_STARTUP" class="github-link" target="_blank" data-i18n="github_btn">Explore Our GitHub <i class="fas fa-external-link-alt"></i></a>
+                                </div>
+                                <div class="buttons-container">
+                                    <a href="https://github.com/LNDMN/AI_CRYPTO_STARTUP/blob/main/community/CONTRIBUTION_GUIDELINES.md" class="type-join-btn" target="_blank" data-i18n="contribution_guidelines_btn">Contribution Guidelines</a>
+                                    <a href="https://t.me/AI_CRYPTO_STARTUP" class="type-join-btn" target="_blank" data-i18n="join_telegram_btn">Join Telegram Community</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Дополнительные секции для проектных планов -->
+        <section id="project-plans" class="section">
+            <div class="section-container">
+                <h2 class="section-title glitch-text" data-text="Project Plans" data-i18n="project_plans_title">Project <span class="gradient-text" data-text="Plans">Plans</span></h2>
+                <p class="section-description" data-i18n="project_plans_desc">We are developing an innovative ecosystem that will transform how humans interact with artificial intelligence.</p>
+                
+                <!-- Добавляем стильные указатели вниз -->
+                <div class="scroll-indicators">
+                    <div class="scroll-arrow-container">
+                        <div class="scroll-arrow"></div>
+                        <div class="scroll-arrow"></div>
+                        <div class="scroll-arrow"></div>
+                    </div>
+                    <p class="scroll-text">Explore our detailed plans below</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Секция с курсами -->
+        <section id="courses" class="section">
+            <div class="section-container">
+                <h2 class="section-title glitch-text" data-text="Образовательные курсы" data-i18n="ecosystem_card2_title">Образовательные <span class="gradient-text" data-text="курсы">курсы</span></h2>
+                <p class="section-description" data-i18n="ecosystem_card2_desc">Мы разрабатываем серию взаимно-дополняющих курсов и Open Source проектов, которые помогают построить нашу экосистему и создать большое сообщество единомышленников</p>
+                
+                <div class="courses-grid">
+                    <!-- Курс 1 -->
+                    <div class="course-card">
+                        <h3 data-i18n="courses_title1">⚡️ AI 🤖 CRYPTO 💎 $TARTUP💲 ЗАПУСКАЕМ РАКЕТУ 🚀</h3>
+                        <p data-i18n="courses_desc1">Погрузись в эпоху революции ИИ-Агентов! Залетаем в AI и CRYPTO мир на блокчейне TON. Изучай передовые технологии и участвуй в разработке полезных инструментов.</p>
+                        <a href="https://github.com/LNDMN/AI_CRYPTO_STARTUP/blob/main/courses/en/AI_CRYPTO_STARTUP/DESCRIPTION.md" class="btn primary-btn cyberpunk-btn" target="_blank" data-link-en="https://github.com/LNDMN/AI_CRYPTO_STARTUP/blob/main/courses/en/AI_CRYPTO_STARTUP/DESCRIPTION.md" data-link-ru="https://github.com/LNDMN/AI_CRYPTO_STARTUP/blob/main/courses/ru/AI_CRYPTO_STARTUP/DESCRIPTION.md" data-i18n="course_details_button">Подробнее</a>
+                    </div>
+                    
+                    <!-- Курс 2 -->
+                    <div class="course-card">
+                        <h3 data-i18n="courses_title2">⚡ТВОЙ ВКАТ В IT 💻 PYTHON С НУЛЯ ДО МИДЛА 🐍 AI-BOOSTED DEV 🤖</h3>
+                        <p data-i18n="courses_desc2">Начни программировать с нуля и прокачайся до мидл+ уровня с помощью ИИ! Освоим Python, современные фреймворки и ИИ-инструменты для создания полноценных продуктов.</p>
+                        <a href="https://github.com/LNDMN/AI_CRYPTO_STARTUP/blob/main/courses/en/become_python_ai_dev/DESCRIPTION.md" class="btn primary-btn cyberpunk-btn" target="_blank" data-link-en="https://github.com/LNDMN/AI_CRYPTO_STARTUP/blob/main/courses/en/become_python_ai_dev/DESCRIPTION.md" data-link-ru="https://github.com/LNDMN/AI_CRYPTO_STARTUP/blob/main/courses/ru/become_python_ai_dev/DESCRIPTION.md" data-i18n="course_details_button">Подробнее</a>
+                    </div>
+                    
+                    <!-- Курс 3 -->
+                    <div class="course-card">
+                        <h3 data-i18n="courses_title3">🌐 КРИПТО МИР И ДЕЦЕНТРАЛИЗАЦИЯ: DAO 🤝 SECURITY 🔒 МАРКЕТИНГ 📈</h3>
+                        <p data-i18n="courses_desc3">Входи в мир Web3! Изучи работу DAO и смарт-контрактов, безопасность блокчейн-систем и продвижение DeFi-продуктов в быстрорастущей экосистеме.</p>
+                        <a href="https://github.com/LNDMN/AI_CRYPTO_STARTUP/blob/main/courses/en/crypto_world_intro/DESCRIPTION.md" class="btn primary-btn cyberpunk-btn" target="_blank" data-link-en="https://github.com/LNDMN/AI_CRYPTO_STARTUP/blob/main/courses/en/crypto_world_intro/DESCRIPTION.md" data-link-ru="https://github.com/LNDMN/AI_CRYPTO_STARTUP/blob/main/courses/ru/crypto_world_intro/DESCRIPTION.md" data-i18n="course_details_button">Подробнее</a>
+                    </div>
+                    
+                    <!-- Курс 4 -->
+                    <div class="course-card">
+                        <h3 data-i18n="courses_title4">🧩 БРАУЗЕРНЫЕ РАСШИРЕНИЯ: СОЗДАЁМ ИИ-АГЕНТА ДЛЯ CHROME & FIREFOX</h3>
+                        <p data-i18n="courses_desc4">Преобразим браузер в интеллектуального помощника! Создадим Open Source расширение с ИИ-агентами, подключим их к моделям и добавим крипто-функционал.</p>
+                        <a href="https://github.com/LNDMN/AI_CRYPTO_STARTUP/blob/main/courses/en/browser_extensions/DESCRIPTION.md" class="btn primary-btn cyberpunk-btn" target="_blank" data-link-en="https://github.com/LNDMN/AI_CRYPTO_STARTUP/blob/main/courses/en/browser_extensions/DESCRIPTION.md" data-link-ru="https://github.com/LNDMN/AI_CRYPTO_STARTUP/blob/main/courses/ru/browser_extensions/DESCRIPTION.md" data-i18n="course_details_button">Подробнее</a>
+                    </div>
+                    
+                    <!-- Курс 5 -->
+                    <div class="course-card">
+                        <h3 data-i18n="courses_title5">⚙️ СМАРТ-КОНТРАКТЫ НА TON: FUNC, TVM & ИНСТРУМЕНТЫ ЭКОСИСТЕМЫ!💎</h3>
+                        <p data-i18n="courses_desc5">Изучи FunC и TVM, создай DeFi или NFT-проекты на блокчейне TON. Освой написание, тестирование и развертывание смарт-контрактов в быстрорастущей экосистеме.</p>
+                        <a href="https://github.com/LNDMN/AI_CRYPTO_STARTUP/blob/main/courses/en/ton_contracts/DESCRIPTION.md" class="btn primary-btn cyberpunk-btn" target="_blank" data-link-en="https://github.com/LNDMN/AI_CRYPTO_STARTUP/blob/main/courses/en/ton_contracts/DESCRIPTION.md" data-link-ru="https://github.com/LNDMN/AI_CRYPTO_STARTUP/blob/main/courses/ru/ton_contracts/DESCRIPTION.md" data-i18n="course_details_button">Подробнее</a>
+                    </div>
+                    
+                    <!-- Курс 6 -->
+                    <div class="course-card">
+                        <h3 data-i18n="courses_title6">🤖ДЕЛАЕМ ИИ-АГЕНТОВ: ОТ ЛОКАЛЬНЫХ ДО ДЕЦЕНТРАЛИЗОВАННЫХ {AGIENT}</h3>
+                        <p data-i18n="courses_desc6">Освойте искусство создания автономных ИИ-агентов, выполняющих сложные задачи. Изучите векторные базы данных, интеграцию с LLM и оркестрацию агентов.</p>
+                        <a href="https://github.com/LNDMN/AI_CRYPTO_STARTUP/blob/main/courses/en/creating_ai_agents/DESCRIPTION.md" class="btn primary-btn cyberpunk-btn" target="_blank" data-link-en="https://github.com/LNDMN/AI_CRYPTO_STARTUP/blob/main/courses/en/creating_ai_agents/DESCRIPTION.md" data-link-ru="https://github.com/LNDMN/AI_CRYPTO_STARTUP/blob/main/courses/ru/creating_ai_agents/DESCRIPTION.md" data-i18n="course_details_button">Подробнее</a>
+                    </div>
+                    
+                    <!-- Курс 7 -->
+                    <div class="course-card">
+                        <h3 data-i18n="courses_title7">🚀 GIT & OPENSOURCE: ДЕЛАЕМ AI-ПРОЕКТ, КОТОРЫЙ ИЗМЕНИТ МИР!</h3>
+                        <p data-i18n="courses_desc7">Овладеем Git и GitHub Projects, чтобы вести совместную работу над любыми идеями: от простых pet-проектов до масштабных AI-стартапов.</p>
+                        <a href="https://github.com/LNDMN/AI_CRYPTO_STARTUP/blob/main/courses/en/git_opensource/DESCRIPTION.md" class="btn primary-btn cyberpunk-btn" target="_blank" data-link-en="https://github.com/LNDMN/AI_CRYPTO_STARTUP/blob/main/courses/en/git_opensource/DESCRIPTION.md" data-link-ru="https://github.com/LNDMN/AI_CRYPTO_STARTUP/blob/main/courses/ru/git_opensource/DESCRIPTION.md" data-i18n="course_details_button">Подробнее</a>
+                    </div>
+                    
+                    <!-- Курс 8 -->
+                    <div class="course-card">
+                        <h3 data-i18n="courses_title8">🔥 ULTRAPI: НОВОЕ ПОКОЛЕНИЕ AI-БЭКЭНДОВ НА ОСНОВЕ FASTAPI! ⚡️</h3>
+                        <p data-i18n="courses_desc8">Создадим AI-заряженный опенсорс-фреймворк UltrAPI, объединяющий FastAPI, Pydantic AI, Supabase и собственных ИИ-Агентов с удобной веб-панелью.</p>
+                        <a href="https://github.com/LNDMN/AI_CRYPTO_STARTUP/blob/main/courses/en/ultrapi/DESCRIPTION.md" class="btn primary-btn cyberpunk-btn" target="_blank" data-link-en="https://github.com/LNDMN/AI_CRYPTO_STARTUP/blob/main/courses/en/ultrapi/DESCRIPTION.md" data-link-ru="https://github.com/LNDMN/AI_CRYPTO_STARTUP/blob/main/courses/ru/ultrapi/DESCRIPTION.md" data-i18n="course_details_button">Подробнее</a>
+                    </div>
+                    
+                    <!-- Курс 9 -->
+                    <div class="course-card">
+                        <h3 data-i18n="courses_title9">🌐WEB3 + PYTHON & JS: СОЗДАЁМ AI-TON-DAPP И ПОКОРЯЕМ БЛОКЧЕЙН!💎</h3>
+                        <p data-i18n="courses_desc9">Соединим мощь Python и JavaScript, чтобы построить полноценный AI-TON-dApp с поддержкой смарт-контрактов на TON/TVM.</p>
+                        <a href="https://github.com/LNDMN/AI_CRYPTO_STARTUP/blob/main/courses/en/web3_ai_ton_dapp/DESCRIPTION.md" class="btn primary-btn cyberpunk-btn" target="_blank" data-link-en="https://github.com/LNDMN/AI_CRYPTO_STARTUP/blob/main/courses/en/web3_ai_ton_dapp/DESCRIPTION.md" data-link-ru="https://github.com/LNDMN/AI_CRYPTO_STARTUP/blob/main/courses/ru/web3_ai_ton_dapp/DESCRIPTION.md" data-i18n="course_details_button">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Раздел структуры репозитория -->
+        <section id="repository" class="section">
+            <div class="section-container">
+                <h2 class="section-title glitch-text" data-text="Структура репозитория" data-i18n="about_title">Структура <span class="gradient-text" data-text="репозитория">репозитория</span></h2>
+                <p class="section-description" data-i18n="about_description">Наша структура репозитория организована для обеспечения максимальной эффективности коллективной разработки.</p>
+                
+                <div class="repo-structure-content">
+                    <div class="repo-folder-item">
+                        <i class="fas fa-folder"></i>
+                        <span data-i18n="feature_1_title">Документация на разных языках</span>
+                    </div>
+                    <div class="repo-folder-item">
+                        <i class="fas fa-folder"></i>
+                        <span data-i18n="feature_2_title">Описание проектов и материалов</span>
+                    </div>
+                    <div class="repo-folder-item">
+                        <i class="fas fa-folder"></i>
+                        <span data-i18n="feature_3_title">Контент для социальных сетей</span>
+                    </div>
+                    <div class="repo-folder-item">
+                        <i class="fas fa-folder"></i>
+                        <span data-i18n="feature_4_title">Образовательные материалы</span>
+                    </div>
+                    <div class="repo-folder-item">
+                        <i class="fas fa-folder"></i>
+                        <span data-i18n="feature_5_title">Веб-сайт проекта</span>
+                    </div>
+                    <div class="repo-folder-item">
+                        <i class="fas fa-folder"></i>
+                        <span data-i18n="feature_6_title">Медиа-файлы и презентации</span>
+                    </div>
+                    <div class="repo-folder-item">
+                        <i class="fas fa-folder"></i>
+                        <span data-i18n="roadmap_phase1_goals_item1">Материалы сообщества и DAO</span>
+                    </div>
+                    <div class="repo-folder-item">
+                        <i class="fas fa-folder"></i>
+                        <span data-i18n="roadmap_phase1_goals_item2">Техническая документация и инструменты</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Расширенная секция финансовых перспектив -->
+        <section id="financial" class="section">
+            <div class="section-container">
+                <h2 class="section-title glitch-text" data-text="Финансовые перспективы" data-i18n="financial_title">Финансовые <span class="gradient-text" data-text="перспективы">перспективы</span></h2>
+                <p class="section-description" data-i18n="financial_desc">Наш проект имеет значительный потенциал роста благодаря инновационной бизнес-модели</p>
+                
+                <h3 class="sub-section-title" data-i18n="financial_subtitle">Источники дохода</h3>
+                <p class="section-description" data-i18n="financial_subtitle_desc">Наша экосистема обеспечивает множественные потоки доходов через различные компоненты</p>
+                
+                <div class="financial-prospects-content">
+                    <!-- AI Agents System -->
+                    <div class="revenue-streams cyberpunk-card">
+                        <div class="ecosystem-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h3 data-i18n="ai_agents_revenue_title">Система ИИ-агентов</h3>
+                        <p data-i18n="ai_agents_revenue_desc">Наши ИИ-агенты будут генерировать доход через комиссии за выполненные задачи, абонентскую плату и комиссии за транзакции на платформе DAO-AI-Freelance.</p>
+                    </div>
+                    
+                    <!-- DeFi Services -->
+                    <div class="revenue-streams cyberpunk-card">
+                        <div class="ecosystem-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3 data-i18n="defi_services_revenue_title">DeFi-сервисы</h3>
+                        <p data-i18n="defi_services_revenue_desc">Доход от комиссий P2P-обмена, крипто-процессинга, токенизации недвижимости и доступа к API для ИИ-моделей через UltrAPI.app.</p>
+                    </div>
+                    
+                    <!-- DAO Advertising Exchange -->
+                    <div class="revenue-streams cyberpunk-card">
+                        <div class="ecosystem-icon">
+                            <i class="fas fa-ad"></i>
+                        </div>
+                        <h3 data-i18n="dao_advertising_revenue_title">DAO Рекламная Биржа</h3>
+                        <p data-i18n="dao_advertising_revenue_desc">Доход от NFT-фикации прав на каналы и рекламные площадки, автоматизированного управления и продажи рекламных слотов.</p>
+                    </div>
+                    
+                    <!-- NFT for Graphics Cards -->
+                    <div class="revenue-streams cyberpunk-card">
+                        <div class="ecosystem-icon">
+                            <i class="fas fa-microchip"></i>
+                        </div>
+                        <h3 data-i18n="nft_gpu_revenue_title">NFT для видеокарт</h3>
+                        <p data-i18n="nft_gpu_revenue_desc">Доход от цифровизации прав на вычислительную мощность, генерации пассивного дохода от неиспользуемых ресурсов GPU.</p>
+                    </div>
+                    
+                    <!-- AI-Launchpool -->
+                    <div class="revenue-streams cyberpunk-card">
+                        <div class="ecosystem-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3 data-i18n="ai_launchpool_revenue_title">ИИ-Launchpool</h3>
+                        <p data-i18n="ai_launchpool_revenue_desc">Доход от поддержки и финансирования новых стартапов с услугами маркетинга, технической поддержки и привлечения средств.</p>
+                    </div>
+                    
+                    <!-- Educational Courses -->
+                    <div class="revenue-streams cyberpunk-card">
+                        <div class="ecosystem-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3 data-i18n="educational_revenue_title">Образовательные курсы</h3>
+                        <p data-i18n="educational_revenue_desc">Доход от премиум образовательного контента, специализированных курсов и программ сертификации.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Расширенная секция с деталями проекта -->
+        <section id="project-details" class="section">
+            <div class="section-container">
+                <h2 class="section-title glitch-text" data-text="Детали проекта" data-i18n="about_title">Детали <span class="gradient-text" data-text="проекта">проекта</span></h2>
+                
+                <div class="project-details-content">
+                    <div class="project-status cyberpunk-card">
+                        <h3 data-i18n="current_phase_badge">Статус проекта</h3>
+                        <p data-i18n="current_phase_subtitle">Активная разработка</p>
+                        
+                        <!-- Добавляем блок о сборе команды -->
+                        <div class="project-team-status">
+                            <h4 data-i18n="join_banner_title">Actively Recruiting Team</h4>
+                            <p data-i18n="join_banner_text">We are looking for talented developers, designers, and content creators to join our revolutionary startup</p>
+                            <a href="https://t.me/asingularity_ai" class="btn cyberpunk-btn" data-i18n="join_banner_btn">Join the Team</a>
+                        </div>
+                        
+                        <!-- Добавляем блок об инвестициях -->
+                        <div class="project-investment">
+                            <h4 data-i18n="invest_btn">Investment Opportunity</h4>
+                            <p data-i18n="hero_subtitle">We are currently raising seed funding for our project. Contact us to learn more about investment opportunities</p>
+                            <a href="https://t.me/landemon" class="btn cyberpunk-btn" data-i18n="invest_btn">Discuss Investment</a>
+                        </div>
+                    </div>
+                    
+                    <div class="project-goals cyberpunk-card">
+                        <h3 data-i18n="roadmap_title">Ключевые цели</h3>
+                        <ul>
+                            <li data-i18n="feature_1_title">Создание децентрализованной системы ИИ-агентов</li>
+                            <li data-i18n="feature_2_title">Разработка DAO-AI-Freelance платформы</li>
+                            <li data-i18n="feature_3_title">Интеграция с блокчейном TON</li>
+                            <li data-i18n="feature_4_title">Создание мультиплатформенного доступа</li>
+                            <li data-i18n="feature_5_title">Внедрение системы вознаграждений NFT</li>
+                            <li data-i18n="feature_6_title">Развитие образовательных курсов</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="final-cta-buttons">
+                    <a href="https://github.com/LNDMN/AI_CRYPTO_STARTUP" class="btn primary-btn cyberpunk-btn" target="_blank" data-i18n="join_banner_btn">Присоединиться к команде</a>
+                    <a href="https://t.me/AI_CRYPTO_STARTUP" class="btn secondary-btn cyberpunk-btn" target="_blank" data-i18n="hero_cta_secondary">Связаться с командой</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Раздел с призывом к действию -->
+        <section id="final-cta" class="section">
+            <div class="section-container">
+                <h2 class="section-title glitch-text" data-text="Join the Revolution!" data-i18n="hero_title">Join the Revolution!</h2>
+                <div class="final-cta-buttons">
+                    <a href="https://github.com/LNDMN/AI_CRYPTO_STARTUP" class="btn primary-btn cyberpunk-btn" target="_blank" data-i18n="join_banner_btn">Join the Team</a>
+                    <a href="https://t.me/AI_CRYPTO_STARTUP" class="btn secondary-btn cyberpunk-btn" target="_blank" data-i18n="hero_cta_secondary">Contact the Team</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <div class="logo">
+                    <span class="logo-text" data-i18n="logo_text">ASINGULARITY</span>
+                </div>
+                <p data-i18n="page_title">ASINGULARITY AI | Decentralized AI Ecosystem</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-section">
+                    <h4 data-i18n="nav_join">Community</h4>
+                    <ul>
+                        <li><a href="https://t.me/AI_CRYPTO_STARTUP" target="_blank">Telegram Channel</a></li>
+                        <li><a href="https://t.me/AI_CRYPTO_STARTUP_chat" target="_blank">Telegram Chat</a></li>
+                        <li><a href="https://github.com/LNDMN/AI_CRYPTO_STARTUP" target="_blank">GitHub</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 data-i18n="nav_ecosystem">Products</h4>
+                    <ul>
+                        <li><a href="#ecosystem">AI Agents</a></li>
+                        <li><a href="#ecosystem">DAO Platform</a></li>
+                        <li><a href="#courses">Educational Courses</a></li>
+                        <li><a href="#nft-rewards">NFT Rewards</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 data-i18n="nav_about">Resources</h4>
+                    <ul>
+                        <li><a href="https://github.com/LNDMN/AI_CRYPTO_STARTUP/blob/main/README.md" target="_blank">Whitepaper</a></li>
+                        <li><a href="https://github.com/LNDMN/AI_CRYPTO_STARTUP/tree/main/docs" target="_blank">Documentation</a></li>
+                        <li><a href="https://github.com/LNDMN/AI_CRYPTO_STARTUP/tree/main/api" target="_blank">API</a></li>
+                        <li><a href="https://github.com/LNDMN/AI_CRYPTO_STARTUP/tree/main/assets" target="_blank">Press Kit</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 ASINGULARITY AI. <span data-i18n="page_description">All rights reserved.</span></p>
+        </div>
+    </footer>
+
+    <!-- Добавляю обновленный мобильный футер с киберпанк-кнопкой -->
+    <div class="mobile-sticky-footer">
+        <a href="https://t.me/LANDEMON" class="invest-btn cyberpunk-btn mobile-invest-btn" target="_blank">
+            <span>PRE-SEED INVEST</span>
+            <i class="fas fa-rocket"></i>
+        </a>
+    </div>
+    
+    <script>
+        // Добавление космических частиц
+        function createSpaceParticles() {
+            const container = document.querySelector('.space-particles');
+            const particleCount = 50;
+            
+            for (let i = 0; i < particleCount; i++) {
+                const particle = document.createElement('div');
+                particle.classList.add('space-particle');
+                
+                // Случайное положение
+                const posX = Math.random() * 100;
+                const posY = Math.random() * 100;
+                
+                // Случайный размер
+                const size = Math.random() * 3 + 1;
+                
+                // Случайная задержка и продолжительность
+                const delay = Math.random() * 15;
+                const duration = Math.random() * 10 + 10;
+                
+                particle.style.left = `${posX}%`;
+                particle.style.top = `${posY}%`;
+                particle.style.width = `${size}px`;
+                particle.style.height = `${size}px`;
+                particle.style.opacity = Math.random() * 0.5 + 0.3;
+                particle.style.animationDelay = `${delay}s`;
+                particle.style.animationDuration = `${duration}s`;
+                
+                container.appendChild(particle);
+            }
+        }
+        
+        // Корректная прокрутка с учетом фиксированного заголовка
+        document.addEventListener('DOMContentLoaded', function() {
+            createSpaceParticles();
+            
+            // Обработка якорных ссылок для корректной прокрутки
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const targetId = this.getAttribute('href');
+                    if (targetId === '#') return;
+                    
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        e.preventDefault();
+                        
+                        // Получаем высоту заголовка
+                        const headerHeight = document.querySelector('header').offsetHeight;
+                        
+                        // Прокручиваем с учетом высоты заголовка
+                        const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - headerHeight - 20;
+                        
+                        window.scrollTo({
+                            top: targetPosition,
+                            behavior: 'smooth'
+                        });
+                        
+                        // Обновляем URL
+                        history.pushState(null, null, targetId);
+                    }
+                });
+            });
+            
+            // Мобильное меню-бургер
+            const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+            const navLinks = document.querySelector('.nav-links');
+            
+            if (mobileMenuToggle && navLinks) {
+                mobileMenuToggle.addEventListener('click', function() {
+                    navLinks.classList.toggle('active');
+                    const isOpen = navLinks.classList.contains('active');
+                    mobileMenuToggle.innerHTML = isOpen ? '<i class="fas fa-times"></i>' : '<i class="fas fa-bars"></i>';
+                });
+                
+                // Закрываем меню при клике на ссылку
+                navLinks.querySelectorAll('a').forEach(link => {
+                    link.addEventListener('click', function() {
+                        navLinks.classList.remove('active');
+                        mobileMenuToggle.innerHTML = '<i class="fas fa-bars"></i>';
+                    });
+                });
+            }
+            
+            // Показываем мобильный футер только на мобильных устройствах
+            function toggleMobileFooter() {
+                const mobileFooter = document.querySelector('.mobile-sticky-footer');
+                if (mobileFooter) {
+                    if (window.innerWidth <= 768) {
+                        mobileFooter.style.display = 'block';
+                        
+                        // Позиционируем кнопку сначала под кнопками текущей фазы
+                        const currentPhaseSection = document.querySelector('.current-stage-content');
+                        const githubButton = document.querySelector('.current-stage-content .cta-buttons');
+                        
+                        if (currentPhaseSection && githubButton) {
+                            // При прокрутке отслеживаем положение футера
+                            window.addEventListener('scroll', function() {
+                                const footerTop = document.querySelector('footer').getBoundingClientRect().top;
+                                const windowHeight = window.innerHeight;
+                                
+                                // Если футер виден, закрепляем кнопку в футере
+                                if (footerTop < windowHeight) {
+                                    mobileFooter.classList.add('footer-visible');
+                                } else {
+                                    mobileFooter.classList.remove('footer-visible');
+                                }
+                                
+                                // Добавляем эффект глитча при прокрутке
+                                if (window.scrollY > windowHeight / 2) {
+                                    mobileFooter.querySelector('.invest-btn').classList.add('active-glitch');
+                                    setTimeout(() => {
+                                        mobileFooter.querySelector('.invest-btn').classList.remove('active-glitch');
+                                    }, 500);
+                                }
+                            });
+                        }
+                    } else {
+                        mobileFooter.style.display = 'none';
+                    }
+                }
+            }
+            
+            // Вызываем при загрузке и изменении размера окна
+            toggleMobileFooter();
+            window.addEventListener('resize', toggleMobileFooter);
+        });
+        
+        // Встроенный скрипт для немедленного исправления проблем с таймлайном на мобильных устройствах
+        document.addEventListener('DOMContentLoaded', function() {
+            // Функция для исправления таймлайна на мобильных устройствах
+            function fixTimelineImmediately() {
+                if (window.innerWidth <= 768) {
+                    // Находим и удаляем вертикальную линию
+                    const timeline = document.querySelector('.timeline');
+                    if (timeline) {
+                        // Устанавливаем стили для центрирования
+                        timeline.style.display = 'flex';
+                        timeline.style.flexDirection = 'column';
+                        timeline.style.alignItems = 'center';
+                        timeline.style.width = '100%';
+                        timeline.style.position = 'relative';
+                        timeline.style.padding = '0';
+                        timeline.style.margin = '0 auto';
+                        
+                        // Принудительно стилизуем псевдоэлемент через дополнительную вставку
+                        
+                        // Обрабатываем все элементы таймлайна
+                        const timelineItems = document.querySelectorAll('.timeline-item');
+                        const isRussian = document.documentElement.lang === 'ru';
+                        
+                        timelineItems.forEach((item, index) => {
+                            item.style.width = '95%';
+                            item.style.margin = '2px auto';
+                            item.style.padding = '0';
+                            
+                            // Применяем стили для контента
+                            const content = item.querySelector('.timeline-content');
+                            if (content) {
+                                content.style.padding = '10px';
+                                content.style.position = 'relative';
+                                content.style.cursor = 'pointer';
+                                content.style.marginBottom = '0';
+                                
+                                // Получаем текст даты из элемента timeline-date, если он есть
+                                let phaseDate = '';
+                                const timelineDate = content.querySelector('.timeline-date');
+                                if (timelineDate) {
+                                    phaseDate = timelineDate.textContent.trim();
+                                }
+                                
+                                // Создаем или обновляем индикатор
+                                let indicator = item.querySelector('.timeline-indicator');
+                                if (!indicator) {
+                                    indicator = document.createElement('div');
+                                    indicator.className = 'timeline-indicator';
+                                    
+                                    // Используем тайминг фазы вместо "Details/Подробнее"
+                                    indicator.textContent = phaseDate;
+                                    
+                                    // Стиль для индикатора как кнопки
+                                    indicator.style.position = 'absolute';
+                                    indicator.style.bottom = '10px';
+                                    indicator.style.left = '50%';
+                                    indicator.style.transform = 'translateX(-50%)';
+                                    indicator.style.fontSize = isRussian ? '0.8rem' : '0.9rem';
+                                    indicator.style.color = 'rgba(0, 217, 255, 0.9)';
+                                    indicator.style.background = 'rgba(10, 20, 40, 0.9)';
+                                    indicator.style.padding = '4px 15px';
+                                    indicator.style.borderRadius = '4px';
+                                    indicator.style.border = '1px solid rgba(0, 217, 255, 0.4)';
+                                    indicator.style.boxShadow = '0 0 8px rgba(0, 217, 255, 0.3)';
+                                    indicator.style.zIndex = '100';
+                                    indicator.style.textAlign = 'center';
+                                    indicator.style.cursor = 'pointer';
+                                    indicator.style.fontFamily = "'VT323', monospace";
+                                    indicator.style.letterSpacing = '1px';
+                                    indicator.style.textTransform = 'uppercase';
+                                    
+                                    // Добавляем дата-атрибут для определения состояния и фазы
+                                    indicator.setAttribute('data-state', 'closed');
+                                    indicator.setAttribute('data-phase', index + 1);
+                                    indicator.setAttribute('data-timing', phaseDate);
+                                    
+                                    content.appendChild(indicator);
+                                } else {
+                                    // Обновляем существующий индикатор
+                                    indicator.textContent = item.classList.contains('active-mobile') ? 
+                                        (isRussian ? `Фаза ${index + 1}` : `Phase ${index + 1}`) : 
+                                        phaseDate;
+                                    
+                                    // Обновляем атрибуты
+                                    indicator.setAttribute('data-phase', index + 1);
+                                    indicator.setAttribute('data-timing', phaseDate);
+                                    
+                                    // Обновляем стили в зависимости от состояния
+                                    if (item.classList.contains('active-mobile')) {
+                                        indicator.style.color = 'rgba(255, 92, 92, 0.9)';
+                                        indicator.style.border = '1px solid rgba(255, 92, 92, 0.5)';
+                                        indicator.style.background = 'rgba(30, 10, 10, 0.9)';
+                                        indicator.style.boxShadow = '0 0 8px rgba(255, 92, 92, 0.3)';
+                                        indicator.setAttribute('data-state', 'opened');
+                                    } else {
+                                        indicator.style.color = 'rgba(0, 217, 255, 0.9)';
+                                        indicator.style.border = '1px solid rgba(0, 217, 255, 0.4)';
+                                        indicator.style.background = 'rgba(10, 20, 40, 0.9)';
+                                        indicator.style.boxShadow = '0 0 8px rgba(0, 217, 255, 0.3)';
+                                        indicator.setAttribute('data-state', 'closed');
+                                    }
+                                }
+                                
+                                // Добавляем мягкий глитч-эффект
+                                if (indicator) {
+                                    // Удаляем существующие обработчики
+                                    const newIndicator = indicator.cloneNode(true);
+                                    if (indicator.parentNode) {
+                                        indicator.parentNode.replaceChild(newIndicator, indicator);
+                                    }
+                                    indicator = newIndicator;
+                                    
+                                    // Добавляем новые обработчики
+                                    indicator.addEventListener('mouseenter', function() {
+                                        indicator.classList.add('subtle-glitch-effect');
+                                        setTimeout(() => {
+                                            indicator.classList.remove('subtle-glitch-effect');
+                                        }, 500);
+                                    });
+                                    
+                                    // Также обрабатываем тач-события для мобильных устройств
+                                    indicator.addEventListener('touchstart', function() {
+                                        indicator.classList.add('subtle-glitch-effect');
+                                        setTimeout(() => {
+                                            indicator.classList.remove('subtle-glitch-effect');
+                                        }, 500);
+                                    });
+                                    
+                                    // Обработчик клика для индикатора
+                                    indicator.addEventListener('click', function(e) {
+                                        e.stopPropagation(); // Предотвращаем всплытие
+                                        
+                                        // Активируем глитч-эффект
+                                        indicator.classList.add('active-glitch-effect');
+                                        setTimeout(() => {
+                                            indicator.classList.remove('active-glitch-effect');
+                                        }, 800);
+                                        
+                                        // Переключаем состояние
+                                        const wasActive = item.classList.contains('active-mobile');
+                                        
+                                        // Закрываем все другие элементы
+                                        timelineItems.forEach(otherItem => {
+                                            if (otherItem !== item) {
+                                                otherItem.classList.remove('active-mobile');
+                                                
+                                                // Обновляем индикаторы
+                                                const otherIndicator = otherItem.querySelector('.timeline-indicator');
+                                                if (otherIndicator) {
+                                                    const otherPhase = otherIndicator.getAttribute('data-phase');
+                                                    const otherTiming = otherIndicator.getAttribute('data-timing');
+                                                    
+                                                    otherIndicator.textContent = otherTiming;
+                                                    otherIndicator.style.color = 'rgba(0, 217, 255, 0.9)';
+                                                    otherIndicator.style.border = '1px solid rgba(0, 217, 255, 0.4)';
+                                                    otherIndicator.style.background = 'rgba(10, 20, 40, 0.9)';
+                                                    otherIndicator.style.boxShadow = '0 0 8px rgba(0, 217, 255, 0.3)';
+                                                    otherIndicator.setAttribute('data-state', 'closed');
+                                                }
+                                                
+                                                // Скрываем детали
+                                                const otherDetail = otherItem.querySelector('.timeline-detail');
+                                                if (otherDetail) {
+                                                    otherDetail.style.maxHeight = '0';
+                                                    otherDetail.style.padding = '0';
+                                                    otherDetail.style.opacity = '0';
+                                                    otherDetail.style.visibility = 'hidden';
+                                                    otherDetail.style.margin = '0';
+                                                }
+                                            }
+                                        });
+                                        
+                                        // Переключаем текущий элемент
+                                        item.classList.toggle('active-mobile');
+                                        
+                                        // Обновляем индикатор и детали
+                                        if (item.classList.contains('active-mobile')) {
+                                            // Показываем номер фазы
+                                            indicator.textContent = isRussian ? `Фаза ${index + 1}` : `Phase ${index + 1}`;
+                                            indicator.style.color = 'rgba(255, 92, 92, 0.9)';
+                                            indicator.style.border = '1px solid rgba(255, 92, 92, 0.5)';
+                                            indicator.style.background = 'rgba(30, 10, 10, 0.9)';
+                                            indicator.style.boxShadow = '0 0 8px rgba(255, 92, 92, 0.3)';
+                                            indicator.setAttribute('data-state', 'opened');
+                                            
+                                            // Показываем детали
+                                            const detail = item.querySelector('.timeline-detail');
+                                            if (detail) {
+                                                detail.style.maxHeight = isRussian ? '1000px' : '800px';
+                                                detail.style.padding = '15px';
+                                                detail.style.opacity = '1';
+                                                detail.style.visibility = 'visible';
+                                                detail.style.marginTop = '5px';
+                                                detail.style.marginBottom = '15px';
+                                            }
+                                            
+                                            // Скроллим к элементу
+                                            setTimeout(() => {
+                                                item.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                                            }, 100);
+                                        } else {
+                                            // Показываем тайминг
+                                            indicator.textContent = phaseDate;
+                                            indicator.style.color = 'rgba(0, 217, 255, 0.9)';
+                                            indicator.style.border = '1px solid rgba(0, 217, 255, 0.4)';
+                                            indicator.style.background = 'rgba(10, 20, 40, 0.9)';
+                                            indicator.style.boxShadow = '0 0 8px rgba(0, 217, 255, 0.3)';
+                                            indicator.setAttribute('data-state', 'closed');
+                                            
+                                            // Скрываем детали
+                                            const detail = item.querySelector('.timeline-detail');
+                                            if (detail) {
+                                                detail.style.maxHeight = '0';
+                                                detail.style.padding = '0';
+                                                detail.style.opacity = '0';
+                                                detail.style.visibility = 'hidden';
+                                                detail.style.margin = '0';
+                                            }
+                                        }
+                                    });
+                                }
+                            }
+                            
+                            // Устанавливаем компактные стили для деталей
+                            const detail = item.querySelector('.timeline-detail');
+                            if (detail) {
+                                if (!item.classList.contains('active-mobile')) {
+                                    detail.style.maxHeight = '0';
+                                    detail.style.padding = '0';
+                                    detail.style.opacity = '0';
+                                    detail.style.visibility = 'hidden';
+                                    detail.style.overflow = 'hidden';
+                                    detail.style.margin = '0';
+                                } else {
+                                    // Если блок активен, обновляем индикатор
+                                    const indicator = item.querySelector('.timeline-indicator');
+                                    if (indicator) {
+                                        indicator.textContent = isRussian ? `Фаза ${index + 1}` : `Phase ${index + 1}`;
+                                        indicator.style.color = 'rgba(255, 92, 92, 0.9)';
+                                        indicator.style.border = '1px solid rgba(255, 92, 92, 0.5)';
+                                        indicator.style.background = 'rgba(30, 10, 10, 0.9)';
+                                        indicator.style.boxShadow = '0 0 8px rgba(255, 92, 92, 0.3)';
+                                    }
+                                }
+                            }
+                        });
+                    }
+                }
+            }
+            
+            // Вызываем функцию немедленно для исправления стилей
+            fixTimelineImmediately();
+            
+            // Добавляем обработчик для переключения языка
+            if (window.changeLanguage) {
+                const originalChangeLanguage = window.changeLanguage;
+                
+                // Переопределяем функцию changeLanguage
+                window.changeLanguage = function(lang) {
+                    // Вызываем оригинальную функцию
+                    originalChangeLanguage(lang);
+                    
+                    // Исправляем таймлайн с учетом нового языка
+                    setTimeout(() => {
+                        if (window.fixMobileTimeline) {
+                            console.log('Running fixMobileTimeline after language change to:', lang);
+                            window.fixMobileTimeline();
+                        } else {
+                            console.log('Using backup timeline fix after language change');
+                            fixTimelineImmediately();
+                        }
+                    }, 100);
+                };
+                
+                console.log('Language change handler with timeline fix has been installed');
+            }
+            
+            // Также обновляем стили при изменении размера окна
+            window.addEventListener('resize', function() {
+                if (window.innerWidth <= 768) {
+                    if (window.fixMobileTimeline) {
+                        window.fixMobileTimeline();
+                    } else {
+                        fixTimelineImmediately();
+                    }
+                }
+            });
+            
+            // Обеспечиваем компактность фаз
+            function ensureCompactLayout() {
+                if (window.innerWidth <= 768) {
+                    const timelineItems = document.querySelectorAll('.timeline-item');
+                    timelineItems.forEach(item => {
+                        item.style.margin = '2px auto';
+                        item.style.padding = '0';
+                        item.style.width = '95%';
+                        
+                        // Удаляем любые индикаторы
+                        const indicators = item.querySelectorAll('.timeline-indicator');
+                        indicators.forEach(indicator => {
+                            if (indicator.parentNode) {
+                                indicator.parentNode.removeChild(indicator);
+                            }
+                        });
+                    });
+                }
+            }
+            
+            // Вызываем функцию сразу и после полной загрузки
+            ensureCompactLayout();
+            window.addEventListener('load', ensureCompactLayout);
+            window.addEventListener('resize', ensureCompactLayout);
+        });
+        
+        // Добавляем функцию для обработки раскрытия блоков таймлайна
+        function setupTimelineExpansion() {
+            if (window.innerWidth <= 768) {
+                // Находим элементы таймлайна
+                const timelineItems = document.querySelectorAll('.timeline-item');
+                
+                // Добавляем обработчики клика
+                timelineItems.forEach(item => {
+                    const content = item.querySelector('.timeline-content');
+                    
+                    if (content) {
+                        // Удаляем существующие обработчики
+                        const newContent = content.cloneNode(true);
+                        if (content.parentNode) {
+                            content.parentNode.replaceChild(newContent, content);
+                        }
+                        
+                        // Добавляем новый обработчик
+                        newContent.addEventListener('click', function(event) {
+                            // Игнорируем клики по ссылкам
+                            if (event.target.tagName === 'A' || event.target.closest('a')) {
+                                return;
+                            }
+                            
+                            // Закрываем все другие элементы
+                            timelineItems.forEach(otherItem => {
+                                if (otherItem !== item) {
+                                    otherItem.classList.remove('active-mobile');
+                                }
+                            });
+                            
+                            // Переключаем состояние текущего элемента
+                            item.classList.toggle('active-mobile');
+                            
+                            // Прокручиваем к элементу, если он раскрыт
+                            if (item.classList.contains('active-mobile')) {
+                                setTimeout(function() {
+                                    const rect = item.getBoundingClientRect();
+                                    window.scrollTo({
+                                        top: window.pageYOffset + rect.top - 100,
+                                        behavior: 'smooth'
+                                    });
+                                }, 100);
+                            }
+                            
+                            // Предотвращаем всплытие события
+                            event.stopPropagation();
+                        });
+                    }
+                });
+            }
+        }
+        
+        // Вызываем функцию при загрузке DOM и при загрузке страницы
+        document.addEventListener('DOMContentLoaded', setupTimelineExpansion);
+        window.addEventListener('load', setupTimelineExpansion);
+        
+        // А также вызываем при изменении размера окна
+        window.addEventListener('resize', function() {
+            if (window.innerWidth <= 768) {
+                setupTimelineExpansion();
+            }
+        });
+        
+        // Улучшенная функция для обработки раскрытия и отображения контента в блоках таймлайна
+        function enhanceTimelineDetails() {
+            if (window.innerWidth <= 768) {
+                // Находим элементы таймлайна
+                const timelineItems = document.querySelectorAll('.timeline-item');
+                
+                // Гарантируем, что контент будет виден
+                timelineItems.forEach(item => {
+                    const detailContent = item.querySelector('.timeline-detail-content');
+                    const detail = item.querySelector('.timeline-detail');
+                    
+                    if (detailContent) {
+                        // Делаем контент внутри деталей видимым
+                        detailContent.style.opacity = '1';
+                        detailContent.style.visibility = 'visible';
+                        detailContent.style.display = 'block';
+                        
+                        // Обрабатываем списки
+                        const lists = detailContent.querySelectorAll('ul');
+                        lists.forEach(list => {
+                            list.style.paddingLeft = '20px';
+                            list.style.margin = '10px 0';
+                            
+                            const items = list.querySelectorAll('li');
+                            items.forEach(li => {
+                                li.style.color = '#a0a0a0';
+                                li.style.marginBottom = '8px';
+                                li.style.position = 'relative';
+                                li.style.paddingLeft = '15px';
+                            });
+                        });
+                        
+                        // Обрабатываем заголовки
+                        const headings = detailContent.querySelectorAll('h4');
+                        headings.forEach(heading => {
+                            heading.style.color = '#00d9ff';
+                            heading.style.marginBottom = '10px';
+                            heading.style.fontSize = '16px';
+                        });
+                    }
+                    
+                    // Настраиваем детали для активных элементов
+                    if (item.classList.contains('active-mobile') && detail) {
+                        detail.style.maxHeight = '1000px';
+                        detail.style.opacity = '1';
+                        detail.style.padding = '20px 15px';
+                        detail.style.visibility = 'visible';
+                        detail.style.display = 'block';
+                    }
+                });
+            }
+        }
+        
+        // Вызываем при загрузке и изменении размера окна
+        document.addEventListener('DOMContentLoaded', enhanceTimelineDetails);
+        window.addEventListener('load', enhanceTimelineDetails);
+        window.addEventListener('resize', function() {
+            if (window.innerWidth <= 768) {
+                enhanceTimelineDetails();
+            }
+        });
+        
+        // Добавляем подробную информацию о фазах проекта
+        function enhancePhaseContents() {
+            if (window.innerWidth <= 768) {
+                // Находим элементы таймлайна
+                const timelineItems = document.querySelectorAll('.timeline-item');
+                
+                // Детальная информация для каждой фазы (на русском и английском)
+                const phaseDetails = {
+                    "phase1": {
+                        "en": {
+                            "title": "Phase 1: Educational Ecosystem & AI Foundations",
+                            "description": "Building core foundations of our ecosystem through education and AI infrastructure.",
+                            "details": [
+                                {
+                                    "title": "Educational Courses Launch",
+                                    "items": [
+                                        "Launch main course: '⚡️ AI 🤖 CRYPTO 💎 $TARTUP💲 LAUNCH YOUR ROCKET 🚀'",
+                                        "Teach participants how to launch decentralized AI startups on TON",
+                                        "Build open-source AI-agent system with students",
+                                        "Form a community to develop the ecosystem and support members",
+                                        "Create additional courses on TON Smart Contract Development and AI Framework"
+                                    ]
+                                },
+                                {
+                                    "title": "AI-Agent System Infrastructure",
+                                    "items": [
+                                        "Develop comprehensive AGI system with TON blockchain integration",
+                                        "Create distributed vector database for storing action patterns",
+                                        "Build CLI and Telegram bot interfaces for initial MVP",
+                                        "Develop SDKs and APIs for rapid integration into projects",
+                                        "Lay groundwork for multichain and offchain operations"
+                                    ]
+                                },
+                                {
+                                    "title": "Community & Early Ecosystem",
+                                    "items": [
+                                        "Start building social media network for ecosystem promotion",
+                                        "Develop frameworks for AI personas and digital avatars",
+                                        "Begin integration with TON smart contracts and TVM",
+                                        "Create foundation for Web Applications and Browser Extensions",
+                                        "Establish mechanism for users to contribute computing resources"
+                                    ]
+                                }
+                            ]
+                        },
+                        "ru": {
+                            "title": "Фаза 1: Образовательная экосистема и основы ИИ",
+                            "description": "Создание фундамента нашей экосистемы через образование и инфраструктуру ИИ.",
+                            "details": [
+                                {
+                                    "title": "Запуск образовательных курсов",
+                                    "items": [
+                                        "Запуск основного курса: '⚡️ AI 🤖 CRYPTO 💎 $TARTUP💲 LAUNCH YOUR ROCKET 🚀'",
+                                        "Обучение участников запуску децентрализованных ИИ-стартапов на TON",
+                                        "Создание системы ИИ-агентов с открытым исходным кодом вместе со студентами",
+                                        "Формирование сообщества для развития экосистемы и поддержки участников",
+                                        "Создание дополнительных курсов по разработке смарт-контрактов TON и ИИ-фреймворку"
+                                    ]
+                                },
+                                {
+                                    "title": "Инфраструктура системы ИИ-агентов",
+                                    "items": [
+                                        "Разработка комплексной системы AGI с интеграцией блокчейна TON",
+                                        "Создание распределенной векторной базы данных для хранения шаблонов действий",
+                                        "Разработка интерфейсов CLI и Telegram-бота для начального MVP",
+                                        "Создание SDK и API для быстрой интеграции в проекты",
+                                        "Подготовка основы для мультичейн и оффчейн операций"
+                                    ]
+                                },
+                                {
+                                    "title": "Сообщество и ранняя экосистема",
+                                    "items": [
+                                        "Начало создания сети социальных медиа для продвижения экосистемы",
+                                        "Разработка фреймворков для ИИ-персон и цифровых аватаров",
+                                        "Начало интеграции со смарт-контрактами TON и TVM",
+                                        "Создание основы для веб-приложений и браузерных расширений",
+                                        "Разработка механизма для предоставления вычислительных ресурсов пользователями"
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "phase2": {
+                        "en": {
+                            "title": "Phase 2: Token Launch & NFT Ecosystem",
+                            "description": "Launching tokens and building comprehensive NFT ecosystem with various digital assets.",
+                            "details": [
+                                {
+                                    "title": "Token & NFT Implementation",
+                                    "items": [
+                                        "Launch ecosystem tokens mined by providing AI computation",
+                                        "Create NFT collections for AI agent ownership and profit sharing",
+                                        "Implement NFT for graphics cards with passive income mechanics",
+                                        "Develop NFT systems for drones, real estate and advertising rights",
+                                        "Establish token mining via computations and contribution rewards"
+                                    ]
+                                },
+                                {
+                                    "title": "DeFi Framework & Services",
+                                    "items": [
+                                        "Launch private stablecoin (USDX) backed by other stablecoins",
+                                        "Develop GOLDX token backed by gold reserves",
+                                        "Create P2P Exchange and Crypto Processing infrastructure",
+                                        "Begin development of prediction markets and betting platform",
+                                        "Implement flexible profit-sharing mechanisms for contributors"
+                                    ]
+                                },
+                                {
+                                    "title": "RockeDAPP & AI Wallet",
+                                    "items": [
+                                        "Develop multifunctional multichain wallet supporting cryptocurrencies",
+                                        "Implement AI trader agents for technical and fundamental analysis",
+                                        "Create crypto information aggregator with integrated analytics",
+                                        "Build trading signals subscription and trust management features",
+                                        "Integrate wallet with other ecosystem services for cross-promotion"
+                                    ]
+                                }
+                            ]
+                        },
+                        "ru": {
+                            "title": "Фаза 2: Запуск токенов и NFT экосистема",
+                            "description": "Запуск токенов и создание комплексной NFT экосистемы с различными цифровыми активами.",
+                            "details": [
+                                {
+                                    "title": "Реализация токенов и NFT",
+                                    "items": [
+                                        "Запуск экосистемных токенов, добываемых за счет предоставления вычислений ИИ",
+                                        "Создание NFT-коллекций для владения ИИ-агентами и распределения прибыли",
+                                        "Внедрение NFT для видеокарт с механикой пассивного дохода",
+                                        "Разработка NFT-систем для дронов, недвижимости и рекламных прав",
+                                        "Создание системы майнинга токенов через вычисления и вознаграждения за вклад"
+                                    ]
+                                },
+                                {
+                                    "title": "DeFi-фреймворк и сервисы",
+                                    "items": [
+                                        "Запуск частного стейблкоина (USDX), обеспеченного другими стейблкоинами",
+                                        "Разработка токена GOLDX, обеспеченного золотом",
+                                        "Создание P2P-биржи и инфраструктуры для криптопроцессинга",
+                                        "Начало разработки рынков предсказаний и платформы для ставок",
+                                        "Внедрение гибких механизмов распределения прибыли для участников"
+                                    ]
+                                },
+                                {
+                                    "title": "RockeDAPP и ИИ-кошелек",
+                                    "items": [
+                                        "Разработка многофункционального мультичейн-кошелька с поддержкой криптовалют",
+                                        "Внедрение ИИ-агентов для технического и фундаментального анализа",
+                                        "Создание агрегатора криптоинформации с интегрированной аналитикой",
+                                        "Разработка подписки на торговые сигналы и функций доверительного управления",
+                                        "Интеграция кошелька с другими сервисами экосистемы для кросс-продвижения"
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "phase3": {
+                        "en": {
+                            "title": "Phase 3: AI Framework & Infrastructure Expansion",
+                            "description": "Expanding AI infrastructure and building decentralized services for the ecosystem.",
+                            "details": [
+                                {
+                                    "title": "Advanced AI Framework Development",
+                                    "items": [
+                                        "Launch web applications, browser extensions and mobile apps for AI interaction",
+                                        "Implement fully operational AI-Oracles system for decentralized data collection",
+                                        "Develop advanced agent automation for task execution and pattern recognition",
+                                        "Create framework for AI personas with individual behavioral models",
+                                        "Expand plugin system for extended AI functionality across platforms"
+                                    ]
+                                },
+                                {
+                                    "title": "Decentralized Infrastructure Services",
+                                    "items": [
+                                        "Launch decentralized VPN/Proxy service with multiple IP addresses",
+                                        "Deploy QuadrAD/ADrone service with NFT ownership of drones",
+                                        "Develop alternative energy crypto project with NFTs for energy sources",
+                                        "Implement UltrAPI.app DiFi service for universal access to AI models",
+                                        "Create real estate sector service with NFT apartments and AI assistant"
+                                    ]
+                                },
+                                {
+                                    "title": "Community & Marketing Platform",
+                                    "items": [
+                                        "Deploy DAO Advertising Exchange with NFT-ification of advertising rights",
+                                        "Expand social media network with AI-SMM agency capabilities",
+                                        "Implement AI-powered advertising management and optimization",
+                                        "Create scalable mechanism for attracting advertisers and content creators",
+                                        "Launch automated content generation and distribution systems"
+                                    ]
+                                }
+                            ]
+                        },
+                        "ru": {
+                            "title": "Фаза 3: ИИ-фреймворк и расширение инфраструктуры",
+                            "description": "Расширение инфраструктуры ИИ и создание децентрализованных сервисов для экосистемы.",
+                            "details": [
+                                {
+                                    "title": "Разработка продвинутого ИИ-фреймворка",
+                                    "items": [
+                                        "Запуск веб-приложений, браузерных расширений и мобильных приложений для взаимодействия с ИИ",
+                                        "Внедрение полнофункциональной системы ИИ-Оракулов для децентрализованного сбора данных",
+                                        "Разработка продвинутой автоматизации агентов для выполнения задач и распознавания шаблонов",
+                                        "Создание фреймворка для ИИ-персон с индивидуальными поведенческими моделями",
+                                        "Расширение системы плагинов для расширенной функциональности ИИ на разных платформах"
+                                    ]
+                                },
+                                {
+                                    "title": "Децентрализованные инфраструктурные сервисы",
+                                    "items": [
+                                        "Запуск децентрализованного VPN/Proxy сервиса с множеством IP-адресов",
+                                        "Внедрение сервиса QuadrAD/ADrone с NFT-владением дронами",
+                                        "Разработка альтернативного энергетического крипто-проекта с NFT для источников энергии",
+                                        "Внедрение сервиса UltrAPI.app DiFi для универсального доступа к моделям ИИ",
+                                        "Создание сервиса в секторе недвижимости с NFT-апартаментами и ИИ-ассистентом"
+                                    ]
+                                },
+                                {
+                                    "title": "Сообщество и платформа маркетинга",
+                                    "items": [
+                                        "Запуск DAO Рекламной Биржи с NFT-фикацией рекламных прав",
+                                        "Расширение сети социальных медиа с возможностями ИИ-SMM агентства",
+                                        "Внедрение управления и оптимизации рекламы на базе ИИ",
+                                        "Создание масштабируемого механизма для привлечения рекламодателей и создателей контента",
+                                        "Запуск автоматизированных систем генерации и распространения контента"
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "phase4": {
+                        "en": {
+                            "title": "Phase 4: AI Launchpool & Global Expansion",
+                            "description": "Creating AI-driven launchpool and expanding ecosystem globally with advanced integrations.",
+                            "details": [
+                                {
+                                    "title": "AI-Launchpool Development",
+                                    "items": [
+                                        "Launch AI-powered launchpool for startups and projects",
+                                        "Implement automated verification and project support systems",
+                                        "Create an AI-driven structure for funding models and idea development",
+                                        "Integrate with ecosystem services for community and investor attraction",
+                                        "Develop comprehensive support system for crowdfunding campaigns"
+                                    ]
+                                },
+                                {
+                                    "title": "Global Ecosystem Expansion",
+                                    "items": [
+                                        "Expand to major global markets with localized services",
+                                        "Create interactive educational platform with AI teachers",
+                                        "Establish cross-chain interoperability solutions",
+                                        "Form industry-specific partnerships and collaborations",
+                                        "Launch global AI research and innovation hubs"
+                                    ]
+                                },
+                                {
+                                    "title": "Advanced AGI Development",
+                                    "items": [
+                                        "Implement long-term evolution toward AGI with modular development",
+                                        "Create infinite learning system using feedback and external data",
+                                        "Build economically self-sufficient platform with DeFi tools integration",
+                                        "Develop AI operating systems and virtual machines",
+                                        "Establish custom hardware solutions for the ecosystem"
+                                    ]
+                                }
+                            ]
+                        },
+                        "ru": {
+                            "title": "Фаза 4: ИИ-Лаунчпул и глобальное расширение",
+                            "description": "Создание лаунчпула на базе ИИ и глобальное расширение экосистемы с продвинутыми интеграциями.",
+                            "details": [
+                                {
+                                    "title": "Разработка ИИ-Лаунчпула",
+                                    "items": [
+                                        "Запуск лаунчпула на базе ИИ для стартапов и проектов",
+                                        "Внедрение автоматизированных систем проверки и поддержки проектов",
+                                        "Создание структуры на базе ИИ для моделей финансирования и развития идей",
+                                        "Интеграция с сервисами экосистемы для привлечения сообщества и инвесторов",
+                                        "Разработка комплексной системы поддержки краудфандинговых кампаний"
+                                    ]
+                                },
+                                {
+                                    "title": "Глобальное расширение экосистемы",
+                                    "items": [
+                                        "Выход на основные глобальные рынки с локализованными услугами",
+                                        "Создание интерактивной образовательной платформы с ИИ-преподавателями",
+                                        "Создание решений для межблокчейновой совместимости",
+                                        "Формирование отраслевых партнерств и сотрудничеств",
+                                        "Запуск глобальных центров исследований и инноваций в области ИИ"
+                                    ]
+                                },
+                                {
+                                    "title": "Продвинутая разработка AGI",
+                                    "items": [
+                                        "Внедрение долгосрочной эволюции в направлении AGI с модульной разработкой",
+                                        "Создание системы бесконечного обучения с использованием обратной связи и внешних данных",
+                                        "Построение экономически самодостаточной платформы с интеграцией инструментов DeFi",
+                                        "Разработка операционных систем и виртуальных машин на базе ИИ",
+                                        "Создание специализированных аппаратных решений для экосистемы"
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                };
+                
+                // Сохраняем данные в глобальном объекте для доступа из других скриптов
+                window.phaseDetails = phaseDetails;
+                
+                // Текущий язык для отображения
+                const currentLang = document.documentElement.lang || 'en';
+                
+                // Обновляем содержимое для каждой фазы
+                timelineItems.forEach((item, index) => {
+                    // Определяем, какая это фаза
+                    let phaseKey = `phase${index + 1}`;
+                    
+                    // Проверяем, есть ли данные для этой фазы
+                    if (phaseDetails[phaseKey]) {
+                        const phaseData = phaseDetails[phaseKey][currentLang] || phaseDetails[phaseKey]['en'];
+                        
+                        // Находим контейнер для деталей
+                        const detailContent = item.querySelector('.timeline-detail-content');
+                        if (detailContent) {
+                            // Очищаем текущее содержимое
+                            detailContent.innerHTML = '';
+                            
+                            // Создаем новое богатое содержимое
+                            phaseData.details.forEach(section => {
+                                // Добавляем заголовок секции
+                                const sectionTitle = document.createElement('h4');
+                                sectionTitle.textContent = section.title;
+                                sectionTitle.style.color = '#00d9ff';
+                                sectionTitle.style.marginBottom = '10px';
+                                sectionTitle.style.fontSize = '16px';
+                                sectionTitle.style.fontWeight = '600';
+                                detailContent.appendChild(sectionTitle);
+                                
+                                // Добавляем элементы списка
+                                const list = document.createElement('ul');
+                                list.style.paddingLeft = '20px';
+                                list.style.margin = '10px 0 20px 0';
+                                
+                                section.items.forEach(itemText => {
+                                    const listItem = document.createElement('li');
+                                    listItem.textContent = itemText;
+                                    listItem.style.color = '#a0a0a0';
+                                    listItem.style.marginBottom = '8px';
+                                    listItem.style.position = 'relative';
+                                    listItem.style.paddingLeft = '15px';
+                                    listItem.style.lineHeight = '1.4';
+                                    listItem.style.fontSize = '14px';
+                                    list.appendChild(listItem);
+                                });
+                                
+                                detailContent.appendChild(list);
+                            });
+                            
+                            // Обновляем основной контент
+                            const mainContent = item.querySelector('.timeline-content');
+                            if (mainContent) {
+                                const headingElement = mainContent.querySelector('h3');
+                                const descElement = mainContent.querySelector('p');
+                                
+                                if (headingElement) {
+                                    headingElement.textContent = phaseData.title;
+                                }
+                                
+                                if (descElement) {
+                                    descElement.textContent = phaseData.description;
+                                }
+                            }
+                        }
+                    }
+                });
+            }
+        }
+        
+        // Делаем функцию доступной глобально
+        window.enhancePhaseContents = enhancePhaseContents;
+        
+        // Вызываем функцию добавления подробного содержимого при загрузке
+        document.addEventListener('DOMContentLoaded', enhancePhaseContents);
+        window.addEventListener('load', enhancePhaseContents);
+        
+        // Инициализация переключателя языков
+        document.addEventListener('DOMContentLoaded', function() {
+            // Кнопки переключения языка
+            const languageSwitchers = document.querySelectorAll('.language-switcher button');
+            
+            // Устанавливаем язык из локального хранилища, если есть
+            const savedLanguage = localStorage.getItem('preferredLanguage');
+            if (savedLanguage) {
+                document.documentElement.lang = savedLanguage;
+                
+                // Обновляем активную кнопку
+                languageSwitchers.forEach(btn => {
+                    btn.classList.remove('active');
+                    if (btn.getAttribute('data-lang') === savedLanguage) {
+                        btn.classList.add('active');
+                    }
+                });
+                
+                // Обновляем контент
+                if (typeof window.enhancePhaseContents === 'function') {
+                    setTimeout(window.enhancePhaseContents, 100);
+                }
+            }
+            
+            // Обработчики для кнопок переключения языка
+            languageSwitchers.forEach(button => {
+                button.addEventListener('click', function() {
+                    const lang = this.getAttribute('data-lang');
+                    console.log('Switching language to:', lang);
+                    
+                    // Устанавливаем новый язык
+                    document.documentElement.lang = lang;
+                    
+                    // Сохраняем в локальное хранилище
+                    localStorage.setItem('preferredLanguage', lang);
+                    
+                    // Обновляем активную кнопку
+                    languageSwitchers.forEach(btn => {
+                        btn.classList.remove('active');
+                    });
+                    this.classList.add('active');
+                    
+                    // Добавляем эффект глитча при переключении
+                    document.body.classList.add('language-switching');
+                    setTimeout(() => {
+                        document.body.classList.remove('language-switching');
+                    }, 1000);
+                    
+                    // Обновляем контент, включая фазы проекта
+                    if (typeof window.updateContent === 'function') {
+                        window.updateContent();
+                    }
+                    
+                    // Прямое воздействие на элементы таймлайна для немедленного обновления
+                    const timelineItems = document.querySelectorAll('.timeline-item');
+                    if (timelineItems.length && window.phaseDetails) {
+                        timelineItems.forEach((item, index) => {
+                            const phaseKey = `phase${index + 1}`;
+                            const currentLang = lang || 'en';
+                            
+                            if (window.phaseDetails[phaseKey] && window.phaseDetails[phaseKey][currentLang]) {
+                                const phaseData = window.phaseDetails[phaseKey][currentLang];
+                                
+                                // Обновляем заголовок и описание
+                                const heading = item.querySelector('.timeline-content h3');
+                                const desc = item.querySelector('.timeline-content p');
+                                
+                                if (heading) heading.textContent = phaseData.title;
+                                if (desc) desc.textContent = phaseData.description;
+                                
+                                // Обновляем детальное содержимое
+                                const detailContent = item.querySelector('.timeline-detail-content');
+                                if (detailContent && phaseData.details) {
+                                    // Очищаем текущее содержимое
+                                    detailContent.innerHTML = '';
+                                    
+                                    // Добавляем новое содержимое
+                                    phaseData.details.forEach(section => {
+                                        const sectionTitle = document.createElement('h4');
+                                        sectionTitle.textContent = section.title;
+                                        sectionTitle.style.color = '#00d9ff';
+                                        sectionTitle.style.marginBottom = '10px';
+                                        sectionTitle.style.fontSize = currentLang === 'ru' ? '15px' : '16px';
+                                        sectionTitle.style.fontWeight = '600';
+                                        detailContent.appendChild(sectionTitle);
+                                        
+                                        const list = document.createElement('ul');
+                                        list.style.paddingLeft = '20px';
+                                        list.style.margin = '10px 0 20px 0';
+                                        
+                                        section.items.forEach(itemText => {
+                                            const listItem = document.createElement('li');
+                                            listItem.textContent = itemText;
+                                            listItem.style.color = '#a0a0a0';
+                                            listItem.style.marginBottom = currentLang === 'ru' ? '6px' : '8px';
+                                            listItem.style.position = 'relative';
+                                            listItem.style.paddingLeft = '15px';
+                                            listItem.style.lineHeight = currentLang === 'ru' ? '1.3' : '1.4';
+                                            listItem.style.fontSize = currentLang === 'ru' ? '13px' : '14px';
+                                            
+                                            // Добавляем маркер
+                                            const marker = document.createElement('span');
+                                            marker.className = 'list-marker';
+                                            marker.style.position = 'absolute';
+                                            marker.style.left = '0';
+                                            marker.style.top = currentLang === 'ru' ? '2px' : '0';
+                                            marker.style.color = '#00d9ff';
+                                            marker.textContent = '•';
+                                            listItem.insertBefore(marker, listItem.firstChild);
+                                            
+                                            list.appendChild(listItem);
+                                        });
+                                        
+                                        detailContent.appendChild(list);
+                                    });
+                                }
+                                
+                                // Обновляем текст в индикаторе
+                                const indicator = item.querySelector('.timeline-indicator');
+                                if (indicator) {
+                                    const isActive = item.classList.contains('active-mobile');
+                                    indicator.textContent = isActive 
+                                        ? (currentLang === 'ru' ? 'Свернуть' : 'Collapse') 
+                                        : (currentLang === 'ru' ? 'Подробнее' : 'Details');
+                                }
+                            }
+                        });
+                    }
+                    
+                    // Для надёжности вызываем enhancePhaseContents через небольшую задержку
+                    if (typeof window.enhancePhaseContents === 'function') {
+                        setTimeout(window.enhancePhaseContents, 100);
+                    }
+                    
+                    console.log('Language update completed');
+                });
+            });
+        });
+        
+        // Добавляем функцию для немедленного обновления таймлайна при переключении языка
+        window.directUpdatePhases = function(lang) {
+            console.log('Direct update phases for language:', lang);
+            if (!window.phaseDetails) {
+                console.error('phaseDetails not found');
+                return;
+            }
+            
+            const timelineItems = document.querySelectorAll('.timeline-item');
+            if (!timelineItems.length) {
+                console.error('No timeline items found');
+                return;
+            }
+            
+            // Принудительно обновляем все фазы
+            timelineItems.forEach((item, index) => {
+                const phaseKey = `phase${index + 1}`;
+                const currentLang = lang || document.documentElement.lang || 'en';
+                
+                if (window.phaseDetails[phaseKey] && window.phaseDetails[phaseKey][currentLang]) {
+                    const phaseData = window.phaseDetails[phaseKey][currentLang];
+                    
+                    // Обновляем заголовок и описание
+                    const heading = item.querySelector('.timeline-content h3');
+                    const desc = item.querySelector('.timeline-content p');
+                    
+                    if (heading) heading.textContent = phaseData.title;
+                    if (desc) desc.textContent = phaseData.description;
+                    
+                    // Обновляем детальное содержимое
+                    const detailContent = item.querySelector('.timeline-detail-content');
+                    if (detailContent && phaseData.details) {
+                        // Очищаем текущее содержимое
+                        detailContent.innerHTML = '';
+                        
+                        // Добавляем новое содержимое
+                        phaseData.details.forEach(section => {
+                            const sectionTitle = document.createElement('h4');
+                            sectionTitle.textContent = section.title;
+                            sectionTitle.style.color = '#00d9ff';
+                            sectionTitle.style.marginBottom = '10px';
+                            sectionTitle.style.fontSize = currentLang === 'ru' ? '15px' : '16px';
+                            sectionTitle.style.fontWeight = '600';
+                            detailContent.appendChild(sectionTitle);
+                            
+                            const list = document.createElement('ul');
+                            list.style.paddingLeft = '20px';
+                            list.style.margin = '10px 0 20px 0';
+                            
+                            section.items.forEach(itemText => {
+                                const listItem = document.createElement('li');
+                                listItem.textContent = itemText;
+                                listItem.style.color = '#a0a0a0';
+                                listItem.style.marginBottom = currentLang === 'ru' ? '6px' : '8px';
+                                listItem.style.position = 'relative';
+                                listItem.style.paddingLeft = '15px';
+                                listItem.style.lineHeight = currentLang === 'ru' ? '1.3' : '1.4';
+                                listItem.style.fontSize = currentLang === 'ru' ? '13px' : '14px';
+                                
+                                // Добавляем маркер
+                                const marker = document.createElement('span');
+                                marker.className = 'list-marker';
+                                marker.style.position = 'absolute';
+                                marker.style.left = '0';
+                                marker.style.top = currentLang === 'ru' ? '2px' : '0';
+                                marker.style.color = '#00d9ff';
+                                marker.textContent = '•';
+                                listItem.insertBefore(marker, listItem.firstChild);
+                                
+                                list.appendChild(listItem);
+                            });
+                            
+                            detailContent.appendChild(list);
+                        });
+                    }
+                    
+                    // Обновляем текст в индикаторе
+                    const indicator = item.querySelector('.timeline-indicator');
+                    if (indicator) {
+                        const isActive = item.classList.contains('active-mobile');
+                        indicator.textContent = isActive 
+                            ? (currentLang === 'ru' ? 'Свернуть' : 'Collapse') 
+                            : (currentLang === 'ru' ? 'Подробнее' : 'Details');
+                    }
+                }
+            });
+            
+            console.log('Phase update completed');
+        };
+        
+        // Переопределяем функцию changeLanguage из translations.js
+        document.addEventListener('DOMContentLoaded', function() {
+            // Сохраняем оригинальную функцию, если она существует
+            if (window.changeLanguage) {
+                const originalChangeLanguage = window.changeLanguage;
+                
+                // Переопределяем функцию
+                window.changeLanguage = function(lang) {
+                    // Вызываем оригинальную функцию
+                    originalChangeLanguage(lang);
+                    
+                    // Дополнительно вызываем нашу функцию прямого обновления
+                    window.directUpdatePhases(lang);
+                    
+                    console.log('Extended changeLanguage completed');
+                };
+            }
+            
+            // Вешаем прямые обработчики на кнопки языка
+            document.querySelectorAll('.language-switcher button').forEach(button => {
+                button.addEventListener('click', function(event) {
+                    const lang = this.getAttribute('data-lang');
+                    
+                    // После небольшой задержки обновляем фазы напрямую
+                    setTimeout(() => {
+                        window.directUpdatePhases(lang);
+                    }, 50);
+                    
+                    console.log('Language button click handler executed');
+                });
+            });
+        });
+        
+        // Непосредственно вызываем функцию обновления стилей таймлайна при загрузке
+        document.addEventListener('DOMContentLoaded', function() {
+            // Импортируем функцию fixMobileTimeline, если она доступна как модуль
+            if (window.fixMobileTimeline) {
+                console.log('Calling fixMobileTimeline from window...');
+                window.fixMobileTimeline();
+            } else {
+                // Создаем прямое исправление для таймлайна, если функция недоступна
+                console.log('Direct timeline fix...');
+                const timeline = document.querySelector('.timeline');
+                if (timeline && window.innerWidth <= 768) {
+                    // Центрируем таймлайн
+                    timeline.style.display = 'flex';
+                    timeline.style.flexDirection = 'column';
+                    timeline.style.alignItems = 'center';
+                    timeline.style.width = '100%';
+                    
+                    // Компактно размещаем элементы
+                    const items = document.querySelectorAll('.timeline-item');
+                    items.forEach(item => {
+                        item.style.margin = '2px auto';
+                        item.style.width = '95%';
+                        
+                        // Уменьшаем контент
+                        const content = item.querySelector('.timeline-content');
+                        if (content) {
+                            content.style.padding = '8px 10px';
+                            content.style.minHeight = '70px';
+                        }
+                        
+                        // Скрываем детали для неактивных элементов
+                        if (!item.classList.contains('active-mobile')) {
+                            const detail = item.querySelector('.timeline-detail');
+                            if (detail) {
+                                detail.style.maxHeight = '0';
+                                detail.style.padding = '0';
+                                detail.style.opacity = '0';
+                                detail.style.visibility = 'hidden';
+                            }
+                        }
+                    });
+                }
+            }
+            
+            // Регистрируем обработчик для обновления при изменении размера
+            window.addEventListener('resize', function() {
+                if (window.innerWidth <= 768) {
+                    if (window.fixMobileTimeline) {
+                        window.fixMobileTimeline();
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html> 
