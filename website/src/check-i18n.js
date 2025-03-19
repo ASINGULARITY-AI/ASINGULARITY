@@ -1,3 +1,4 @@
+
 // Скрипт для проверки наличия всех ключей i18n в файле локализаций
 document.addEventListener('DOMContentLoaded', function() {
     console.log('Проверка ключей i18n...');

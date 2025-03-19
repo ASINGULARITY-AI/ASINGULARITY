@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agentic System on TON - MVP Whitepaper Mindmap</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            background: linear-gradient(135deg, #0088cc, #004466);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            font-weight: 300;
+            margin-bottom: 1rem;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .mindmap {
+            margin-top: 2rem;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .node {
+            cursor: pointer;
+            transition: all 0.3s;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            overflow: hidden;
+        }
+
+        .node-header {
+            padding: 1rem 1.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 600;
+            color: white;
+        }
+
+        .node-content {
+            padding: 1.5rem;
+            display: none;
+            background-color: white;
+            border: 1px solid #ddd;
+            border-top: none;
+            border-radius: 0 0 8px 8px;
+        }
+
+        .node.active .node-content {
+            display: block;
+        }
+
+        .node-title {
+            display: flex;
+            align-items: center;
+        }
+
+        .node-expand {
+            margin-left: 10px;
+            font-size: 1.2rem;
+        }
+
+        .todo-list {
+            margin-top: 1rem;
+        }
+
+        .todo-item {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        .todo-item:last-child {
+            border-bottom: none;
+        }
+
+        /* Node colors */
+        .core-agent {
+            background-color: #3498db;
+        }
+
+        .blockchain {
+            background-color: #2ecc71;
+        }
+
+        .interfaces {
+            background-color: #9b59b6;
+        }
+
+        .memory-storage {
+            background-color: #e67e22;
+        }
+
+        .deployment {
+            background-color: #34495e;
+        }
+
+        .security {
+            background-color: #c0392b;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .node-header {
+                padding: 0.8rem 1rem;
+            }
+
+            .node-content {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>ASINGULARITY.AI: Agentic System on TON</h1>
+        <div class="subtitle">MVP Development Roadmap & Technical Whitepaper</div>
+    </header>
+
+    <div class="container">
+        <div class="mindmap">
+            <!-- Core Agent Node -->
+            <div class="node">
+                <div class="node-header core-agent">
+                    <div class="node-title">1. Core Agent Architecture</div>
+                    <div class="node-expand">+</div>
+                </div>
+                <div class="node-content">
+                    <p>Building the autonomous AI agent capable of handling tasks, web browsing, and automation through n8n.</p>
+                    
+                    <div class="todo-list">
+                        <div class="todo-item">💻 Set up LangChain framework with OpenRouter API integration for multi-model support</div>
+                        <div class="todo-item">🌐 Integrate browser-use library for web navigation capabilities</div>
+                        <div class="todo-item">🔄 Implement n8n connector for workflow automation</div>
+                        <div class="todo-item">🧩 Create prompt templates for agent reasoning and planning</div>
+                        <div class="todo-item">🤖 Implement ReAct pattern (Reasoning + Acting) for autonomous decision-making</div>
+                        <div class="todo-item">📋 Develop task handling system with planning and execution modules</div>
+                        <div class="todo-item">🔍 Add web search capabilities (via SerpAPI, DuckDuckGo, etc.)</div>
+                        <div class="todo-item">📝 Implement credential management system for securely storing user API keys</div>
+                        <div class="todo-item">🔁 Create feedback loop mechanism for continuous improvement</div>
+                        <div class="todo-item">⏱️ Add timeout and error handling for robust operation</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Memory and Storage Node -->
+            <div class="node">
+                <div class="node-header memory-storage">
+                    <div class="node-title">2. Memory & Storage Architecture</div>
+                    <div class="node-expand">+</div>
+                </div>
+                <div class="node-content">
+                    <p>Implementing efficient memory systems for agent knowledge and user data persistence.</p>
+                    
+                    <div class="todo-list">
+                        <div class="todo-item">🧠 Set up ChromaDB for vector storage and semantic memory</div>
+                        <div class="todo-item">🔑 Design secure database for storing user credentials and API keys</div>
+                        <div class="todo-item">🔄 Implement conversation history storage and retrieval</div>
+                        <div class="todo-item">📚 Create knowledge base system with structured information retrieval</div>
+                        <div class="todo-item">🔍 Add context window management for effective memory utilization</div>
+                        <div class="todo-item">🔐 Implement encryption for sensitive data storage</div>
+                        <div class="todo-item">📊 Design analytics storage for tracking agent performance</div>
+                        <div class="todo-item">📃 Set up document storage for task artifacts and results</div>
+                        <div class="todo-item">♻️ Implement memory garbage collection and optimization</div>
+                        <div class="todo-item">🔄 Create backup and recovery procedures for all data stores</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Blockchain Integration Node -->
+            <div class="node">
+                <div class="node-header blockchain">
+                    <div class="node-title">3. TON Blockchain Integration</div>
+                    <div class="node-expand">+</div>
+                </div>
+                <div class="node-content">
+                    <p>Developing smart contracts on TON for agent registration, task management, and payments.</p>
+                    
+                    <div class="todo-list">
+                        <div class="todo-item">📜 Develop AgentNFT smart contract on FunC for agent registration</div>
+                        <div class="todo-item">📋 Create TaskRegistry smart contract for managing task lifecycle</div>
+                        <div class="todo-item">💰 Implement escrow functionality for secure task payments</div>
+                        <div class="todo-item">🔗 Set up TON Connect integration for wallet connectivity</div>
+                        <div class="todo-item">🌉 Create API bridge between agent backend and TON blockchain</div>
+                        <div class="todo-item">📦 Implement IPFS integration for storing task descriptions and results</div>
+                        <div class="todo-item">🧩 Develop Oracle service for verifying task completion</div>
+                        <div class="todo-item">📊 Create commission distribution system for platform sustainability</div>
+                        <div class="todo-item">🔄 Add transaction monitoring service for tracking payments</div>
+                        <div class="todo-item">🧪 Set up testnet deployment pipeline for contract testing</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- User Interfaces Node -->
+            <div class="node">
+                <div class="node-header interfaces">
+                    <div class="node-title">4. User Interfaces</div>
+                    <div class="node-expand">+</div>
+                </div>
+                <div class="node-content">
+                    <p>Building Telegram bot and web application interfaces for interacting with the agent system.</p>
+                    
+                    <div class="todo-list">
+                        <div class="todo-item">🤖 Develop Telegram bot with Python-Telegram-Bot library</div>
+                        <div class="todo-item">💬 Implement conversation handling and dialog management</div>
+                        <div class="todo-item">🔘 Create inline buttons for interactive task management</div>
+                        <div class="todo-item">💰 Integrate TON payment handling in Telegram (TON Connect)</div>
+                        <div class="todo-item">🌐 Develop minimal web interface with React.js</div>
+                        <div class="todo-item">📱 Ensure responsive design for mobile and desktop access</div>
+                        <div class="todo-item">🔐 Implement authentication system for both interfaces</div>
+                        <div class="todo-item">📋 Create dashboard for viewing task history and status</div>
+                        <div class="todo-item">🔔 Add notification system for task updates</div>
+                        <div class="todo-item">🌍 Implement internationalization (English/Russian support)</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Microservices Architecture Node -->
+            <div class="node">
+                <div class="node-header core-agent">
+                    <div class="node-title">5. Microservices Architecture</div>
+                    <div class="node-expand">+</div>
+                </div>
+                <div class="node-content">
+                    <p>Designing and implementing the microservices backend architecture with FastAPI.</p>
+                    
+                    <div class="todo-list">
+                        <div class="todo-item">🚀 Set up FastAPI framework for backend microservices</div>
+                        <div class="todo-item">🔌 Create API gateway for unified access to services</div>
+                        <div class="todo-item">🤖 Implement Agent Service for handling AI processing</div>
+                        <div class="todo-item">💾 Develop Storage Service for memory and database operations</div>
+                        <div class="todo-item">🔗 Create Blockchain Service for TON interaction</div>
+                        <div class="todo-item">🔄 Implement n8n Integration Service for automation workflows</div>
+                        <div class="todo-item">🌐 Develop Browser Service for web navigation capabilities</div>
+                        <div class="todo-item">👤 Create User Service for account management</div>
+                        <div class="todo-item">📊 Implement Analytics Service for tracking performance</div>
+                        <div class="todo-item">🔍 Add Service Discovery and health monitoring</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Security and Privacy Node -->
+            <div class="node">
+                <div class="node-header security">
+                    <div class="node-title">6. Security & Privacy</div>
+                    <div class="node-expand">+</div>
+                </div>
+                <div class="node-content">
+                    <p>Implementing robust security measures for protecting user data and ensuring system integrity.</p>
+                    
+                    <div class="todo-list">
+                        <div class="todo-item">🔐 Implement secure credential storage with encryption</div>
+                        <div class="todo-item">🔑 Create API key rotation and management system</div>
+                        <div class="todo-item">🛡️ Set up rate limiting and abuse prevention</div>
+                        <div class="todo-item">🔍 Implement audit logging for all critical operations</div>
+                        <div class="todo-item">🚫 Add input validation and sanitization</div>
+                        <div class="todo-item">🔒 Configure HTTPS/TLS for all communications</div>
+                        <div class="todo-item">🔄 Create backup and disaster recovery procedures</div>
+                        <div class="todo-item">👤 Implement privacy controls for user data</div>
+                        <div class="todo-item">📝 Develop terms of service and privacy policy</div>
+                        <div class="todo-item">🔍 Conduct security audit before public launch</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Deployment Node -->
+            <div class="node">
+                <div class="node-header deployment">
+                    <div class="node-title">7. Deployment & DevOps</div>
+                    <div class="node-expand">+</div>
+                </div>
+                <div class="node-content">
+                    <p>Setting up the infrastructure and deployment pipeline for the MVP.</p>
+                    
+                    <div class="todo-list">
+                        <div class="todo-item">☁️ Set up cloud infrastructure (AWS/GCP/Azure)</div>
+                        <div class="todo-item">🐳 Create Docker containers for each microservice</div>
+                        <div class="todo-item">🚢 Configure Kubernetes for orchestration</div>
+                        <div class="todo-item">🔄 Implement CI/CD pipeline for automated deployment</div>
+                        <div class="todo-item">📊 Set up monitoring and alerting (Prometheus, Grafana)</div>
+                        <div class="todo-item">📝 Configure logging and tracing (ELK Stack)</div>
+                        <div class="todo-item">🔍 Implement auto-scaling based on demand</div>
+                        <div class="todo-item">🛡️ Configure network security and firewalls</div>
+                        <div class="todo-item">💾 Set up backup and restore procedures</div>
+                        <div class="todo-item">📋 Create deployment documentation and runbooks</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const nodes = document.querySelectorAll('.node');
+            
+            nodes.forEach(node => {
+                const header = node.querySelector('.node-header');
+                const expandIcon = node.querySelector('.node-expand');
+                
+                header.addEventListener('click', function() {
+                    node.classList.toggle('active');
+                    
+                    if (node.classList.contains('active')) {
+                        expandIcon.textContent = '-';
+                    } else {
+                        expandIcon.textContent = '+';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+
+</html> 
