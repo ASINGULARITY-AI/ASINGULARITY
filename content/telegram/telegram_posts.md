@@ -9,7 +9,7 @@ A collection of longer-format posts for the ASINGULARITY Telegram channel.
 - Get NFT rewards for your contributions
 - Join a community of innovators
 - Access cutting-edge tech education
-Ready to level up your skills? Join us:  asingularity.ai 🚀
+Ready to level up your skills? Join us: [link] 🚀
 
 ## Technical Posts
 
